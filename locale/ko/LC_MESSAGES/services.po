@@ -50,7 +50,7 @@ msgstr "Odoo 현장 서비스 작업은 판매주문서 또는 헬프데스크 �
 #: ../../content/applications/services/field_service/creating_tasks.rst:9
 #: ../../content/applications/services/project/tasks/task_creation.rst:9
 msgid "Manual task creation"
-msgstr ""
+msgstr "수동 작업 생성"
 
 #: ../../content/applications/services/field_service/creating_tasks.rst:11
 msgid "To create a new field service task:"
@@ -512,6 +512,8 @@ msgid ""
 "smart button on the task changes to :guilabel:`Worksheet Complete` instead, "
 "even if some fields are left blank."
 msgstr ""
+"워크시트를 저장하면 작업의 :guilabel:`워크시트` 스마트 버튼 제목이 :guilabel:`워크시트 완료` 로 변경되며, 일부 "
+"필드를 비워 놓더라도 마찬가지로 적용됩니다."
 
 #: ../../content/applications/services/field_service/worksheets.rst:66
 msgid ""
@@ -824,6 +826,8 @@ msgid ""
 ":guilabel:`(drag)` icon, to the left of the stage name, and drag it to the "
 "desired place on the list."
 msgstr ""
+"단계 순서를 변경하려면 단계명 왼쪽에 있는 :icon:`oi-draggable` :guilabel:`(드래그)` 아이콘을 클릭한 후 "
+"목록에서 원하는 위치로 드래그합니다."
 
 #: ../../content/applications/services/helpdesk.rst-1
 msgid ""
@@ -1013,7 +1017,7 @@ msgstr "칸반 화면에서 단계를 직접 접는 것은 일시적인 것이�
 
 #: ../../content/applications/services/helpdesk.rst:242
 msgid "Merge tickets"
-msgstr ""
+msgstr "티켓 병합"
 
 #: ../../content/applications/services/helpdesk.rst:244
 msgid ""
@@ -6075,7 +6079,7 @@ msgstr "활동을 **이미** 예약한 경우에는, 아이콘이 **전화**, **
 
 #: ../../content/applications/services/project/tasks.rst:5
 msgid "Task management"
-msgstr ""
+msgstr "작업 관리"
 
 #: ../../content/applications/services/project/tasks/recurring_tasks.rst:3
 msgid "Recurring tasks"
@@ -6320,7 +6324,7 @@ msgstr ":guilabel:`프로젝트` 를 선택하면 해당 프로젝트의 칸반 
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:3
 msgid "Task creation"
-msgstr ""
+msgstr "작업 생성"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:5
 msgid ""
@@ -6354,7 +6358,7 @@ msgstr ""
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:25
 msgid "Task configuration"
-msgstr ""
+msgstr "작업 환경설정"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:27
 msgid ""
@@ -6372,6 +6376,8 @@ msgid ""
 "(:guilabel:`star`) icon to mark the task as high priority. The icon will "
 "turn yellow. Click it again to remove the high priority."
 msgstr ""
+":icon:`fa-star-o` (:guilabel:`별표`): :icon:`fa-star-o` (:guilabel:`별표`) 아이콘을 "
+"클릭하면 작업에 대한 우선순위를 높아집니다. 아이콘은 노란색으로 바뀝니다. 다시 클릭하면 우선순위가 제거됩니다."
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:32
 msgid ":guilabel:`Project`: the project that this task belongs to."
@@ -6496,6 +6502,8 @@ msgid ""
 "(:guilabel:`vertical ellipsis`) icon next to the desired project's name. "
 "Select :guilabel:`Settings`, then open the :guilabel:`Settings` tab."
 msgstr ""
+"환경설정을 하려면, 프로젝트 앱을 열고 설정할 프로젝트 이름 옆에 있는 :icon:`fa-ellipsis-v` (:guilabel:`세로"
+" 줄임표`) 아이콘을 클릭합니다. :guilabel:`설정` 을 선택한 다음 :guilabel:`설정` 탭을 엽니다."
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:83
 msgid ""
@@ -6570,7 +6578,7 @@ msgstr ""
 msgid ""
 "If you have the Website app installed in your database, you can configure "
 "any form on your website to trigger the creation of tasks in a project."
-msgstr ""
+msgstr "데이터베이스에 웹사이트 앱이 설치되어 있으면, 웹사이트에서 양식을 설정하여 프로젝트에서 작업이 트리거되게 할 수 있습니다."
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:112
 msgid ""
@@ -6614,7 +6622,7 @@ msgstr ""
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:6
 msgid "Task stages"
-msgstr ""
+msgstr "작업 단계"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:8
 msgid ""
@@ -6634,7 +6642,7 @@ msgstr ""
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:16
 msgid "Creating task stages"
-msgstr ""
+msgstr "작업 단계 만들기"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:18
 msgid ""
@@ -6660,7 +6668,7 @@ msgstr ""
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:28
 msgid "Editing task stages"
-msgstr ""
+msgstr "작업 단계 편집하기"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:30
 msgid ""
@@ -6722,7 +6730,7 @@ msgstr ""
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:51
 msgid "Task statuses"
-msgstr ""
+msgstr "작업 상태"
 
 #: ../../content/applications/services/project/tasks/task_stages_statuses.rst:53
 msgid ""

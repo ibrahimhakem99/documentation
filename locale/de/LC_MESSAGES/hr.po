@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-04 11:48+0000\n"
+"POT-Creation-Date: 2024-12-02 12:38+0000\n"
 "PO-Revision-Date: 2024-03-30 23:40+0000\n"
 "Last-Translator: Larissa Manderfeld, 2024\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
@@ -515,6 +515,11 @@ msgid ""
 "respective statuses. This report helps managers track scheduled appraisals, "
 "and identify any overdue or unconfirmed ones."
 msgstr ""
+"Die **Mitarbeiterbeurteilung** kann Berichte über alle Beurteilungen im "
+"System erstellen, einschließlich vergangener, aktueller und zukünftiger "
+"Beurteilungen und deren jeweiligem Status. Dieser Bericht hilft Managern, "
+"geplante Beurteilungen zu verfolgen und überfällige oder unbestätigte "
+"Beurteilungen zu identifizieren."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:9
 msgid ""
@@ -531,6 +536,9 @@ msgid ""
 "the appraisals in the database. Each entry is highlighted in a different "
 "color to represent their status:"
 msgstr ""
+"Auf der Seite :guilabel:`Beurteilungsanalyse` finden Sie einen Bericht über "
+"alle Beurteilungen in der Datenbank, die je nach Status in verschiedenen "
+"Farben hervorgehoben sind."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:16
 msgid "Color"
@@ -542,7 +550,7 @@ msgstr "Status"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:16
 msgid "Meaning"
-msgstr ""
+msgstr "Bedeutung"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:18
 msgid "Yellow"
@@ -550,11 +558,11 @@ msgstr "Gelb"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:18
 msgid ":guilabel:`Done`"
-msgstr ""
+msgstr ":guilabel:`Erledigt`"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:18
 msgid "The appraisal was completed."
-msgstr ""
+msgstr "Die Beurteilung wurde abgeschlossen."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:20
 msgid "Orange"
@@ -562,11 +570,11 @@ msgstr "Orange"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:20
 msgid ":guilabel:`Appraisal Sent`"
-msgstr ""
+msgstr ":guilabel:`Beurteilung versendet`"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:20
 msgid "The appraisal was confirmed, but not completed."
-msgstr ""
+msgstr "Die Beurteilung wurde bestätigt, aber nicht abgeschlossen."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:22
 msgid "Red"
@@ -574,11 +582,11 @@ msgstr "Rot"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:22
 msgid ":guilabel:`Cancelled`"
-msgstr ""
+msgstr ":guilabel:`Abgebrochen`"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:22
 msgid "The appraisal was cancelled."
-msgstr ""
+msgstr "Die Beurteilung wurde abgebrochen."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:24
 msgid "Gray"
@@ -586,23 +594,27 @@ msgstr "Grau"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:24
 msgid ":guilabel:`To Start`"
-msgstr ""
+msgstr ":guilabel:`Anstehend`"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:24
 msgid "The appraisal was scheduled, but not confirmed."
-msgstr ""
+msgstr "Die Beurteilung wurde geplant, aber nicht bestätigt."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:28
 msgid ""
 "Appraisals are scheduled automatically (appear in gray), according to their "
 "respective :ref:`appraisals/appraisal-plan`."
 msgstr ""
+"Beurteilungen werden automatisch geplant (erscheint in Grau), je nach "
+":ref:`appraisals/appraisal-plan` ."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:31
 msgid ""
 "The report displays the current year, in a default Gantt view, grouped by "
 "department, with the current month highlighted."
 msgstr ""
+"Der Bericht zeigt standardmäßig das aktuelle Jahr, gruppiert nach Abteilung "
+"in der Gantt-Ansicht mit Hervorhebung des aktuellen Monats."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:34
 msgid ""
@@ -612,6 +624,12 @@ msgid ""
 ":guilabel:`Day`, :guilabel:`Week`, :guilabel:`Month`, and :guilabel:`Year`. "
 "Use the adjacent arrows to move forward or backward in time."
 msgstr ""
+"Um den dargestellten Zeitraum zu ändern, ändern Sie die Datumseinstellungen "
+"oben links im Bericht. indem Sie auf den Standardwert :guilabel:`Jahr` "
+"klicken, um ein Drop-down-Menü der Optionen anzuzeigen. Die Optionen für die"
+" Anzeige sind :guilabel:`Tag`, :guilabel:`Woche`, :guilabel:`Monat` und "
+":guilabel:`Jahr`. Verwenden Sie die Pfeile, um sich in der Zeit vorwärts "
+"oder rückwärts zu bewegen."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:39
 msgid ""
@@ -628,12 +646,20 @@ msgid ""
 "details, click the :guilabel:`View` button, and further details appear in a "
 "pop-up window."
 msgstr ""
+"Um die Details einer Beurteilung zu sehen, klicken Sie auf eine beliebige "
+"Beurteilung. Ein Pop-over-Fenster erscheint und zeigt das Fälligkeitsdatum "
+"für die Beurteilung an. Klicken Sie für weitere Informationen auf die "
+"Schaltfläche :guilabel:`Ansicht` und es erscheinen weitere Details in einem "
+"Pop-up-Fenster."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:46
 msgid ""
 "The report can have other :ref:`filters <search/filters>` and "
 ":ref:`groupings <search/group>` set in the search bar at the top."
 msgstr ""
+"In der Suchleiste am oberen Rand des Berichts können Sie weitere "
+":ref:`Filter <search/filters>` und :ref:`Gruppierungen <search/group>` "
+"festlegen."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst-1
 msgid "A report showing all the appraisals for the Appraisal Analysis report."
@@ -642,7 +668,7 @@ msgstr ""
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:56
 msgid "Group by status"
-msgstr ""
+msgstr "Nach Status gruppieren"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:58
 msgid ""
@@ -650,6 +676,10 @@ msgid ""
 ":guilabel:`Appraisal Analysis` report may display too much information to "
 "view easily. In this scenario, viewing the data by status can be beneficial."
 msgstr ""
+"Wenn ein Unternehmen eine große Anzahl von Mitarbeitern hat, kann es sein, "
+"dass der standardmäßige Bericht :guilabel:`Beurteilungsanalyse` zu viele "
+"Informationen enthält, um sie einfach anzeigen zu können. In diesem Fall "
+"kann es von Vorteil sein, die Daten nach Status anzuzeigen."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:62
 msgid ""
@@ -659,6 +689,12 @@ msgid ""
 " the :icon:`oi-group` :guilabel:`Group By` column. Click away from the drop-"
 "down menu to close it."
 msgstr ""
+"Entfernen Sie zunächst die Standardgruppierung :icon:`oi-group` "
+":guilabel:`Abteilung` aus der Suchleiste. Klicken Sie anschließend auf das "
+"Symbol :icon:`fa-caret-down` :guilabel:`(Pfeil nach unten)` ganz rechts in "
+"der Suchleiste. Klicken Sie in der Spalte :guilabel:`Gruppieren nach` auf "
+":guilabel:`Status`. Klicken Sie außerhalb des Drop-down-Menüs, um es zu "
+"schließen."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:67
 msgid ""
@@ -666,20 +702,26 @@ msgid ""
 ":guilabel:`Cancelled`, :guilabel:`Done`, :guilabel:`To Start`, and "
 ":guilabel:`Appraisal Sent`."
 msgstr ""
+"Alle Beurteilungen sind nun nach Status in der folgenden Reihenfolge "
+"organisiert: :guilabel:`Abgebrochen`, :guilabel:`Erledigt`, "
+":guilabel:`Anstehend` und :guilabel:`Bewertung versendet`."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:70
 msgid ""
 "This view makes it easy to see which appraisals need to be completed, and "
 "when, as well as which appraisals still need to be confirmed."
 msgstr ""
+"Diese Ansicht macht es einfach zu sehen, welche Beurteilungen wann "
+"abgeschlossen werden müssen und welche Beurteilungen noch bestätigt werden "
+"müssen."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst-1
 msgid "A report showing all the appraisals, grouped by status."
-msgstr ""
+msgstr "Ein Bericht, der alle Beurteilungen gruppiert nach Mitarbeiter zeigt."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:78
 msgid "Use case: view only the user's appraisals"
-msgstr ""
+msgstr "Anwendungsfall: nur die Beurteilungen des Benutzers anzeigen"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:80
 msgid ""
@@ -687,12 +729,18 @@ msgid ""
 "only view the appraisals the signed-in user is responsible for, and hide the"
 " rest."
 msgstr ""
+"Wenn Sie den Bericht :guilabel:`Beurteilungsanalyse` anzeigen, kann es Zeit "
+"sparen, nur die Beurteilungen anzuzeigen, für die der angemeldete Benutzer "
+"verantwortlich ist, und den Rest auszublenden."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:83
 msgid ""
 "To only view this data, click the :icon:`fa-caret-down` :guilabel:`(down "
 "arrow)` icon in the far-right of the search bar, revealing a drop-down menu."
 msgstr ""
+"Um diese Daten anzuzeigen, klicken Sie auf das Symbol :icon:`fa-caret-down` "
+":guilabel:`(nach unten)` ganz rechts neben der Suchleiste, um das Dropdown-"
+"Menü zu öffnen."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:87
 msgid ""
@@ -701,6 +749,10 @@ msgid ""
 "grouped by department. If it is removed, the results appear in a list, "
 "alphabetically."
 msgstr ""
+"Die Standardgruppierung :icon:`oi-group` :guilabel:`Abteilung` muss nicht "
+"entfernt werden. Wenn sie aktiv bleibt, werden die Ergebnisse nach Abteilung"
+" gruppiert. Wenn sie entfernt wird, werden die Ergebnisse in einer "
+"alphabetischen Liste angezeigt."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:91
 msgid ""
@@ -708,6 +760,9 @@ msgid ""
 ":guilabel:`Filters` column, and a :guilabel:`Add Custom Filter` pop-up "
 "window appears."
 msgstr ""
+"Klicken Sie unten in der Spalte :icon:`fa-filter` :guilabel:`Filter` auf "
+":guilabel:`Benutzerdefinierten Filter hinzufügen` und ein Pop-up-Fenster "
+":guilabel:`Benutzerdefinierten Filter hinzufügen` wird geladen."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:94
 msgid ""
@@ -718,26 +773,42 @@ msgid ""
 ":guilabel:`(equal)`. Last, click the third field and select the desired user"
 " from the list. When all the fields are set, click :guilabel:`Add`."
 msgstr ""
+"Klicken Sie in das erste Feld, woraufhin ein Pop-over mit einer Vielzahl von"
+" Optionen angezeigt wird. Klicken Sie auf das Symbol :icon:`fa-chevron-"
+"right` :guilabel:`(Pfeil nach rechts)` hinter dem Wort "
+":guilabel:`Mitarbeiter`, scrollen Sie dann nach unten und klicken Sie auf "
+":guilabel:`Manager`. Setzen Sie als Nächstes das mittlere Feld auf "
+":guilabel:`=` :guilabel:`(gleich)`. Klicken Sie zuletzt auf das dritte Feld "
+"und wählen Sie den gewünschten Benutzer aus der Liste aus. Wenn alle Felder "
+"eingestellt sind, klicken Sie auf :guilabel:`Hinzufügen`."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst-1
 msgid "A customized filter to show only the user's employees."
 msgstr ""
+"Ein benutzerdefinierter Filter, um nur die Mitarbeiter des Benutzers "
+"anzuzeigen"
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:104
 msgid ""
 "Now, the only appraisals that appear are the appraisals that the selected "
 "user is responsible for, instead of viewing *all* the appraisals."
 msgstr ""
+"Jetzt werden nur noch die Beurteilungen angezeigt, für die der ausgewählte "
+"Benutzer verantwortlich ist, anstatt *alle* Beurteilungen anzuzeigen."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:107
 msgid ""
 "This report can also be :ref:`grouped by status <appraisals/group-status>`."
 msgstr ""
+"Dieser Bericht kann auch :ref:`nach Status gruppiert werden "
+"<appraisals/group-status>`."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst-1
 msgid ""
 "A report showing only the appraisals the user is responsible for, by status."
 msgstr ""
+"Ein Bericht, der nur die Beurteilungen anzeigt, für die der Benutzer "
+"verantwortlich ist, nach Status."
 
 #: ../../content/applications/hr/appraisals/appraisal_analysis.rst:114
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:102
@@ -992,10 +1063,14 @@ msgid ""
 "*Appraisals* dashboard by opening the :menuselection:`Appraisals` app. The "
 ":guilabel:`Appraisals` dashboard is the default view."
 msgstr ""
+"Um eine neue Mitarbeiterbeurteilung für einen Mitarbeiter zu erstellen, "
+"navigieren Sie zum Hauptdashboard *Mitarbeiterbeurteilung*, indem Sie die "
+"App :guilabel:`Mitarbeiterbeurteilung` öffnen. Das Dashboard "
+":guilabel:`Mitarbeiterbeurteilung` ist die Standardansicht."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:10
 msgid "Appraisals dashboard"
-msgstr ""
+msgstr "Dashboard „Mitarbeiterbeurteilung“"
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:12
 msgid ""
@@ -1003,6 +1078,10 @@ msgid ""
 " a list of groupings on the left side of the dashboard, including "
 ":guilabel:`COMPANY`, :guilabel:`DEPARTMENT`, and :guilabel:`STATUS`."
 msgstr ""
+"Alle Beurteilungen werden auf dem Dashboard standardmäßig in einer Kanban-"
+"Ansicht angezeigt, mit einer Liste von Gruppierungen auf der linken Seite "
+"des Dashboards, einschließlich :guilabel:`UNTERNEHMEN`, "
+":guilabel:`ABTEILUNG` und :guilabel:`STATUS`."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:16
 msgid ""
@@ -1018,6 +1097,10 @@ msgid ""
 "a database only has one company, the :guilabel:`COMPANY` grouping does "
 "**not** appear, since there is no other company to select."
 msgstr ""
+"Nur Gruppierungen mit mehreren Auswahlmöglichkeiten erscheinen in der Liste."
+" Wenn eine Datenbank z. B. nur ein Unternehmen hat, erscheint die "
+"Gruppierung :guilabel:`UNTERNEHMEN` **nicht**, da es kein anderes "
+"Unternehmen zur Auswahl gibt."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:23
 msgid "Each appraisal card displays the following information:"
@@ -1025,35 +1108,43 @@ msgstr "Jede Beurteilungskarte enthält die folgenden Informationen:"
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:25
 msgid "**Name**: the employee's name."
-msgstr ""
+msgstr "**Name**: der Name des Mitarbeiters."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:26
 msgid "**Department**: the department the employee is associated with."
-msgstr ""
+msgstr "**Abteilung**: die Abteilung, der der Mitarbeiter zugeordnet ist."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:27
 msgid ""
 "**Company**: the company the employee works for. This only appears in a "
 "multi-company database."
 msgstr ""
+"**Unternehmen**: das Unternehmen, für das der Mitarbeiter arbeitet. Dies "
+"erscheint nur in einer Datenbank mit mehreren Unternehmen."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:28
 msgid ""
 "**Date**: the date the appraisal was requested, or is scheduled for in the "
 "future."
 msgstr ""
+"**Datum**: das Datum, an dem die Beurteilung angefordert wurde oder für das "
+"sie in der Zukunft geplant ist."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:29
 msgid ""
 "**Activities**: any :doc:`activities <../../essentials/activities>` that are"
 " scheduled for the appraisal, such as *Meetings* or *Phone Calls*."
 msgstr ""
+"**Aktivitäten**: jegliche :doc:`Aktivitäten <../../essentials/activities>`, "
+"die für die Beurteilung geplant sind, wie z. B. *Meetings* oder *Telefonat*."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:31
 msgid ""
 "**Manager**: the employee's manager, indicated by the profile icon in the "
 "bottom-right corner of an appraisal card."
 msgstr ""
+"**Manager**: der Vorgesetzte des Mitarbeiters, angezeigt durch das "
+"Profilsymbol in der unteren rechten Ecke einer Beurteilungskarte."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:33
 msgid ""
@@ -1061,6 +1152,10 @@ msgid ""
 "appraisal is marked as either *Canceled* or *Done*. If no banner is present,"
 " that means the appraisal has not happened, or has not been scheduled yet."
 msgstr ""
+"**Statusbanner**: der Status der Beurteilung. Ein Banner erscheint, wenn "
+"eine Beurteilung entweder als *Abgebrochen* oder *Erledigt* markiert ist. "
+"Wenn kein Banner angezeigt wird, bedeutet dies, dass die Beurteilung noch "
+"nicht stattgefunden hat oder noch nicht geplant wurde."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:37
 msgid ""
@@ -1078,7 +1173,7 @@ msgstr ""
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:44
 msgid "Create an appraisal"
-msgstr ""
+msgstr "Eine Mitarbeiterbeurteilung erstellen"
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:46
 msgid ""
@@ -1087,6 +1182,12 @@ msgid ""
 "blank appraisal form. After entering a name in the first blank field, "
 "proceed to enter the following information on the form:"
 msgstr ""
+"Um eine neue Mitarbeiterbeurteilung zu erstellen, klicken Sie auf die "
+"Schaltfläche :guilabel:`Neu` oben links im Dashboard "
+":guilabel:`Mitarbeiterbeurteilung`. Dadurch wird ein leeres "
+"Mitarbeiterbeurteilungsformular geöffnet. Geben Sie dann einen Namen in das "
+"erste leere Feld ein und fahren Sie mit der Eingabe der folgenden "
+"Informationen in das Formular ein:"
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:50
 msgid ""
@@ -1095,6 +1196,11 @@ msgid ""
 "of the appraisal. This field auto-populates after the employee is selected, "
 "if they have a manager set on their employee profile."
 msgstr ""
+":guilabel:`Manager`: Wählen Sie den Manager des Mitarbeiters aus dem "
+"Dropdown-Menü. Der Manager ist für das Ausfüllen des Abschnitts *Feedback "
+"des Managers* in der Beurteilung verantwortlich. Dieses Feld wird "
+"automatisch ausgefüllt, nachdem der Mitarbeiter ausgewählt wurde, wenn in "
+"seinem Mitarbeiterprofil ein Manager festgelegt ist."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:54
 msgid ""
@@ -1103,6 +1209,10 @@ msgid ""
 "completed or cancelled, with the corresponding date of completion or "
 "cancellation."
 msgstr ""
+":guilabel:`Beurteilungsdatum`: In dieses Feld wird automatisch das aktuelle "
+"Datum eingetragen. Dieses Feld wird automatisch aktualisiert, sobald die "
+"Beurteilung abgeschlossen oder abgebrochen wird, mit dem entsprechenden "
+"Datum des Abschlusses oder der Beendigung."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:57
 msgid ""
@@ -1131,6 +1241,9 @@ msgid ""
 "The only required fields for the appraisal form are the employee's name, the"
 " :guilabel:`Manager`, and the :guilabel:`Company`."
 msgstr ""
+"Die einzigen erforderlichen Felder für das Beurteilungsformular sind der "
+"Name des Mitarbeiters, der :guilabel:`Manager` und das "
+":guilabel:`Unternehmen`."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:68
 msgid ""
@@ -1243,6 +1356,10 @@ msgid ""
 ":guilabel:`Attachments` button, and a file explorer window appears. Navigate"
 " to the file(s), select them, then click :guilabel:`Open`."
 msgstr ""
+"Wenn Sie Anhänge benötigen, klicken Sie auf die Schaltfläche :icon:`fa-"
+"paperclip` :guilabel:`Anhänge`, woraufhin ein Datei-Explorer-Fenster "
+"erscheint. Navigieren Sie zu der/den Datei(en), wählen Sie sie aus und "
+"klicken Sie dann auf :guilabel:`Öffnen`."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:107
 msgid "When the email is ready to send, click :guilabel:`Send.`"
@@ -1263,6 +1380,9 @@ msgid ""
 "Once an appraisal is confirmed, the next steps require the employee to fill "
 "out the self-assessment, after which the manager completes their assessment."
 msgstr ""
+"Sobald eine Beurteilung bestätigt wurde, füllt der Mitarbeiter die "
+"Selbstbeurteilung aus, woraufhin der Manager seine Beurteilung "
+"vervollständigt."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:122
 msgid "Employee's feedback"
@@ -1362,6 +1482,11 @@ msgid ""
 "populates with the skills from the :ref:`employee form <employees/skills>`, "
 "once an appraisal is confirmed."
 msgstr ""
+"Teil einer Beurteilung ist es, die Fähigkeiten eines Mitarbeiters zu "
+"bewerten und seine Fortschritte im Laufe der Zeit zu verfolgen. Der Reiter "
+":guilabel:`Kompetenzen` des Beurteilungsformulars wird automatisch mit den "
+"Kompetenzen aus dem :ref:`Mitarbeiterformular <employees/skills>` "
+"ausgefüllt, sobald eine Beurteilung bestätigt wird."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:165
 msgid ""
@@ -1421,6 +1546,9 @@ msgid ""
 "The :guilabel:`Skills` tab can be modified **after** the employee and their "
 "manager have met and discussed the employee's appraisal."
 msgstr ""
+"Der Reiter :guilabel:`Kompetenzen` kann bearbeitet werden, **nachdem** sich "
+"der Mitarbeiter und der Manager getroffen und die Beurteilung des "
+"Mitarbeiters besprochen haben."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:189
 msgid ""
@@ -1428,10 +1556,13 @@ msgid ""
 "information to properly assess and update the employee's skills before "
 "meeting."
 msgstr ""
+"Dies ist eine häufige Situation, da der Manager möglicherweise nicht über "
+"alle erforderlichen Informationen verfügt, um die Fähigkeiten des "
+"Mitarbeiters vor dem Gespräch richtig einzuschätzen und zu aktualisieren."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:193
 msgid "Private Note tab"
-msgstr ""
+msgstr "Reiter „Private Notiz“"
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:195
 msgid ""
@@ -1439,12 +1570,18 @@ msgid ""
 "they can be entered in the :guilabel:`Private Note` tab. This can be done "
 "before or after meeting with the employee to discuss the appraisal."
 msgstr ""
+"Wenn Manager Notizen hinterlassen möchten, die nur für andere Manager "
+"sichtbar sind, können sie diese im Reiter :guilabel:`Private Notiz` "
+"eingeben. Dies kann vor oder nach dem Meeting mit dem Mitarbeiter erfolgen, "
+"um die Beurteilung zu besprechen."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:199
 msgid ""
 "The employee being evaluated does **not** have access to this tab, and the "
 "tab does **not** appear on their appraisal."
 msgstr ""
+"Der bewertete Mitarbeiter hat **keinen** Zugriff auf diesen Reiter und der "
+"Reiter erscheint **nicht** in seiner Beurteilung."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:203
 msgid "Schedule a meeting"
@@ -1476,6 +1613,9 @@ msgid ""
 "To schedule an appraisal from the dashboard of the *Appraisals* application,"
 " first navigate to :menuselection:`Appraisals app --> Appraisals`."
 msgstr ""
+"Um eine Beurteilung aus dem Dashboard der *Mitarbeiterbeurteilungsapp* zu "
+"planen, navigieren Sie zunächst zu :menuselection:`Mitarbeiterbeurteilung "
+"--> Mitarbeiterbeurteilung`."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:215
 msgid ""
@@ -1484,6 +1624,11 @@ msgid ""
 "click :icon:`fa-plus` :guilabel:`Schedule an activity` to create an activity"
 " from a :guilabel:`Schedule Activity` pop-up form that appears."
 msgstr ""
+"Klicken Sie auf das Symbol :icon:`fa-clock-o` :guilabel:`(Uhr)` unterhalb "
+"des Beurteilungsdatums auf der gewünschten Beurteilungskarte und ein Pop-up-"
+"Fenster erscheint. Klicken Sie dann auf :guilabel:`+ Eine Aktivität planen`,"
+" um ein Aktivitätsformular über das Pop-up-Fenster :guilabel:`Aktivität "
+"planen` zu erstellen."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:219
 msgid ""
@@ -1501,6 +1646,9 @@ msgid ""
 ":guilabel:`Schedule Activity` pop-up form, such as `Annual Appraisal for "
 "(Employee)`."
 msgstr ""
+"Geben Sie eine kurze Beschreibung in das Feld :guilabel:`Zusammenfassung` "
+"des Pop-up-Formulars :guilabel:`Aktivität planen` ein, z. B. "
+"`Jahresbeurteilung für (Mitarbeiter)`."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:226
 msgid ""
@@ -1519,12 +1667,19 @@ msgid ""
 "make any desired modifications, such as designating a :guilabel:`Start` "
 "time, or modifying the default :guilabel:`Title` to the meeting."
 msgstr ""
+"Daraufhin öffnet sich ein Pop-up-Formular :guilabel:`Neues Ereignis`. Nehmen"
+" Sie in diesem Pop-up-Formular alle gewünschten Änderungen vor, wie z. B. "
+"die Festlegung einer :guilabel:`Start`-Zeit oder die Änderung des "
+":guilabel:`Titels` für das Meeting."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:233
 msgid ""
 "Add the appraisee in the :guilabel:`Attendees` section, and include anyone "
 "else who should also be in the meeting, if necessary."
 msgstr ""
+"Fügen Sie den Beurteilten in den Abschnitt :guilabel:`Teilnehmer` ein und "
+"fügen Sie ggf. weitere Personen hinzu, die auch am Meeting teilnehmen "
+"sollten."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:236
 msgid ""
@@ -1532,6 +1687,9 @@ msgid ""
 ":icon:`fa-plus` :guilabel:`Odoo meeting`, and a :guilabel:`Videocall URL` "
 "link appears in the field."
 msgstr ""
+"Wenn Sie das Meeting nicht persönlich, sondern per Videoanruf durchführen "
+"möchten, klicken Sie auf :icon:`fa-plus` :guilabel:`Odoo-Meeting` und ein "
+"Link :guilabel:`Videoanrufs-URL` erscheint in dem Feld."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:239
 msgid ""
@@ -1562,18 +1720,27 @@ msgid ""
 "To do this, navigate to the :menuselection:`Appraisal app` dashboard, then "
 "click on an appraisal card."
 msgstr ""
+"Die andere Möglichkeit, ein Meeting zu vereinbaren, ist über das Formular "
+"für individuelle Beurteilungen. Navigieren Sie dazu zum Dashboard der "
+":menuselection:`Mitarbeiterbeurteilungsapp` und klicken Sie dann auf eine "
+"Beurteilungskarte."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:250
 msgid ""
 "Next, click on the :icon:`fa-calendar` :guilabel:`Meeting` smart button, and"
 " the calendar loads. Follow the same directions above to create the meeting."
 msgstr ""
+"Klicken Sie dann auf die intelligente Schaltfläche :icon:`fa-calendar` "
+":guilabel:`Meeting`, und der Kalender wird geladen. Folgen Sie den obigen "
+"Anweisungen, um das Meeting zu erstellen."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:253
 msgid ""
 "For more detailed information on how to schedule activities, refer to the "
 ":doc:`activities <../../essentials/activities>` documentation."
 msgstr ""
+"Weitere Einzelheiten zur Planung von Aktivitäten finden Sie unter "
+":doc:`Aktivitäten <../../essentials/activities>`."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:257
 msgid ""
@@ -1585,7 +1752,7 @@ msgstr ""
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:260
 msgid "Complete an appraisal"
-msgstr ""
+msgstr "Eine Mitarbeiterbeurteilung abschließen"
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:262
 msgid ""
@@ -1594,23 +1761,35 @@ msgid ""
 "completed, click the :guilabel:`Mark as Done` button on the appraisal form, "
 "located in the top-left corner."
 msgstr ""
+"Nachdem die Beurteilung abgeschlossen ist und sowohl der Manager als auch "
+"der Mitarbeiter sich getroffen haben, um die Beurteilung zu besprechen, kann"
+" die Beurteilung als *Erledigt* markiert werden. Klicken Sie nach Abschluss "
+"auf die Schaltfläche :guilabel:`Als erledigt markieren` im "
+"Beurteilungsformular, die sich in der oberen linken Ecke befindet."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:266
 msgid ""
 "Once the appraisal is marked as *Done*, the :guilabel:`Mark as Done` button "
 "disappears, and a :guilabel:`Reopen` button appears."
 msgstr ""
+"Sobald die Beurteilung als *Erledigt* markiert ist, verschwindet die "
+"Schaltfläche :guilabel:`Als erledigt markieren` und eine Schaltfläche  "
+":guilabel:`Erneut öffnen` wird angezeigt."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:270
 msgid ""
 "Modifications are **not** possible once the appraisal is marked as done."
 msgstr ""
+"Änderungen sind **nicht** möglich, sobald die Beurteilung als erledigt "
+"markiert ist."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:272
 msgid ""
 "To make any changes to an appraisal that is marked as *Done*, click the "
 ":guilabel:`Reopen` button."
 msgstr ""
+"Um Änderungen an einer Beurteilung vorzunehmen, die als *Erledigt* markiert "
+"ist, klicken Sie auf die Schaltfläche :guilabel:`Erneut öffnen`."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:275
 msgid ""
@@ -1618,18 +1797,22 @@ msgid ""
 "modifications needed. Once all modifications are complete, click the "
 ":guilabel:`Mark as Done` button again."
 msgstr ""
+"Klicken Sie dann auf die Schaltfläche :guilabel:`Bestätigen`, die daraufhin "
+"angezeigt wird, und nehmen Sie die erforderlichen Änderungen vor. Wenn alle "
+"Änderungen abgeschlossen sind, klicken Sie erneut auf die Schaltfläche "
+":guilabel:`Als erledigt markieren`."
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:279
 msgid ":doc:`../appraisals/goals`"
-msgstr ""
+msgstr ":doc:`../appraisals/goals`"
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:280
 msgid ":doc:`../appraisals/appraisal_analysis`"
-msgstr ""
+msgstr ":doc:`../appraisals/appraisal_analysis`"
 
 #: ../../content/applications/hr/appraisals/new_appraisals.rst:281
 msgid ":doc:`../appraisals/skills_evolution`"
-msgstr ""
+msgstr ":doc:`../appraisals/skills_evolution`"
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:3
 msgid "Skills evolution"
@@ -1641,6 +1824,10 @@ msgid ""
 "they progress over time in the :ref:`Skills Evolution <appraisals/identify-"
 "skills-evolution>` report, also known as the *Appraisal Skills Report*."
 msgstr ""
+"In Odoo *Mitarbeiterbeurteilung* können Sie die Fähigkeiten der Mitarbeiter "
+"im Laufe der Zeit im Bericht :ref:`Kompetenzentwicklung "
+"<appraisals/identify-skills-evolution>` (auch bekannt als *Bericht über "
+"Mitarbeiterkompetenzen*) einsehen."
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:9
 msgid ""
@@ -1648,6 +1835,10 @@ msgid ""
 "on their appraisals, who is meeting their skill deadlines, who has the "
 "highest performance in terms of skill development, and more."
 msgstr ""
+"Manager können damit sehen, wer die verschiedenen in ihren Beurteilungen "
+"festgelegten Kompetenzziele erreicht, wer die Kompetenzfristen einhält, wer "
+"die höchste Leistung in Bezug auf die Kompetenzentwicklung erbringt und "
+"vieles mehr."
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:13
 msgid ""
@@ -1656,16 +1847,23 @@ msgid ""
 "levels, which can be helpful for scenarios where specific skills are "
 "required."
 msgstr ""
+"Der Bericht *Kompetenzentwicklung* bietet auch die Möglichkeit, :ref:`nach "
+"Mitarbeitern mit bestimmten Kompetenzen zu suchen <appraisals/identify-"
+"skills>` auf bestimmten Ebenen, was in Szenarien, in denen bestimmte "
+"Kompetenzen erforderlich sind, hilfreich sein kann."
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:20
 msgid "Skills evolution report"
-msgstr ""
+msgstr "Kompetenzenentwicklungsbericht"
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:22
 msgid ""
 "To access this *Skills Evolution* report, navigate to "
 ":menuselection:`Appraisals app --> Reporting --> Skills Evolution`."
 msgstr ""
+"Um auf den Bericht *Kompetenzentwicklung* zuzugreifen, navigieren Sie zu "
+":menuselection:`Mitarbeiterbeurteilung--> Berichtswesen --> "
+"Kompetenzentwicklung`."
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:25
 msgid ""
@@ -1673,6 +1871,10 @@ msgid ""
 "displays a report of all skills, grouped by employee, in alphabetical order,"
 " by default."
 msgstr ""
+"Wenn Sie dies tun, wird die Seite :guilabel:`Bericht über "
+"Mitarbeiterkompetenzen` angezeigt, auf der ein Bericht über alle Kompotenzen"
+" angezeigt wird, die standardmäßig nach Mitarbeitern in alphabetischer "
+"Reihenfolge gruppiert sind."
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:29
 msgid ""
@@ -1680,6 +1882,10 @@ msgid ""
 "skill level changes from ongoing appraisals that have **not** been finalized"
 " are **not** included in this report."
 msgstr ""
+"Die Kompetenzlevel werden **nur** aktualisiert, nachdem eine Beurteilung als"
+" erledigt markiert wurde. Alle Änderungen der Kompetenzlevel von laufenden "
+"Beurteilungen, die **nicht** abgeschlossen wurden, sind **nicht** in diesem "
+"Bericht enthalten."
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:32
 msgid ""
@@ -1688,6 +1894,11 @@ msgid ""
 "view the individual skills contained within a skill type, click anywhere on "
 "the skill type line to expand the data."
 msgstr ""
+"Alle Zeilen mit dem Titel :guilabel:`Mitarbeiter` werden erweitert, wobei "
+"alle verschiedenen Kompetenzarten darunter angeordnet sind. Jede einzelne "
+"Kompetenzart ist standardmäßig eingeklappt. Um die einzelnen Kompetenzen "
+"anzuzeigen, die in einer Kompetenzart enthalten sind, klicken Sie auf eine "
+"beliebige Stelle in der Zeile der Kompetenzart, um die Daten zu erweitern."
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:36
 msgid "Each skill has the following information listed:"
@@ -1756,6 +1967,12 @@ msgid ""
 " in black, as *No Change*. Skills that have regressed appear in red, as "
 "*Regression*."
 msgstr ""
+"Die Farbe des Kompetenztextes zeigt alle Änderungen gegenüber der letzten "
+"Beurteilung an. Kompetenzen, die sich seit der letzten Beurteilung "
+"verbessert haben, erscheinen in Grün als *Verbesserung*, Kompetenzlevel, die"
+" sich **nicht** verändert haben, erscheinen in Schwarz als *Keine "
+"Veränderung*, und Kompetenzen, die sich zurückentwickelt haben, erscheinen "
+"in Rot als *Rückläufige Entwicklung*."
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:53
 msgid ""
@@ -1763,6 +1980,9 @@ msgid ""
 ":ref:`filters <search/filters>` and :ref:`groupings <search/group>` set in "
 "the search bar at the top."
 msgstr ""
+"Dieser Bericht kann durch Anpassung der in der Suchleiste oben festgelegten "
+":ref:`Filter <search/filters>` und :ref:`Gruppierungen <search/group>` "
+"geändert werden, um bestimmte Informationen zu finden."
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst-1
 msgid "A report showing all the skills grouped by employee."
@@ -1771,6 +1991,7 @@ msgstr "Ein Bericht, der alle Kompetenzen gruppiert nach Mitarbeiter zeigt."
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:63
 msgid "Use case: Identify employees with specific skills"
 msgstr ""
+"Anwendungsfall: Mitarbeiter mit spezifischen Kompetenzen identifizieren"
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:65
 msgid ""
@@ -1790,6 +2011,9 @@ msgid ""
 "level of Javascript knowledge. To view only those employees, first remove "
 "all active filters in the search bar."
 msgstr ""
+"In diesem Beispiel wird der Bericht so geändert, dass er Mitarbeiter mit "
+"Expertenkenntnissen in JavaScript anzeigt. Um nur diese Mitarbeiter "
+"anzuzeigen, entfernen Sie zunächst alle aktiven Filter in der Suchleiste."
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:72
 msgid ""
@@ -1798,6 +2022,11 @@ msgid ""
 "filters` :guilabel:`Filters` column to load an :guilabel:`Add Custom Filter`"
 " pop-up window."
 msgstr ""
+"Als nächstes klicken Sie auf das Symbol :icon:`fa-caret-down` "
+":guilabel:`(Pfeil nach unten)` in der Suchleiste und dann auf "
+":guilabel:`Benutzerdefinierten Filter hinzufügen` unter der Spalte "
+":icon:`fa-filters` :guilabel:`Filter`, um ein Pop-up-Fenster "
+":guilabel:`Benutzerdefinierten Filter hinzufügen` zu laden."
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:76
 msgid ""
@@ -1805,6 +2034,9 @@ msgid ""
 " keep the second field as-is, and select :guilabel:`Javascript` from the "
 "third drop-down menu in the third field."
 msgstr ""
+"Wählen Sie im Dropdown-Menü des ersten Felds :guilabel:`Kompetenz`. Behalten"
+" Sie dann das zweite Feld bei und wählen Sie im dritten Feld aus dem dritten"
+" Drop-down-Menü :guilabel:`Javascript` aus."
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:79
 msgid ""
@@ -1813,6 +2045,11 @@ msgid ""
 "leave the second field as-is, then select :guilabel:`Expert` for the third "
 "drop-down field."
 msgstr ""
+"Klicken Sie anschließend auf :guilabel:`Neue Regel`, woraufhin eine weitere "
+"Zeile erscheint. In dieser zweiten Zeile wählen Sie :guilabel:`Aktuelles "
+"Kompetenzlevel` für das erste Dropdown-Feld, lassen Sie das zweite Feld, wie"
+" es ist, und wählen Sie dann :guilabel:`Experte` für das dritte Dropdown-"
+"Feld."
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:83
 msgid ""
@@ -1822,14 +2059,23 @@ msgid ""
 "caret-down` :guilabel:`(down arrow)` icon after the word :guilabel:`any`, "
 "and select :guilabel:`all`."
 msgstr ""
+"Nachdem Sie auf die Schaltfläche :guilabel:`Neue Regel` geklickt haben, "
+"verwandelt sich das Wort :guilabel:`„beliebige“` im Satz "
+":guilabel:`Abgleichung vonbeliebigen der folgenden Regeln:` von reinem Text "
+"in ein Dropdown-Menü. Klicken Sie auf das Symbol :icon:`fa-caret-down` "
+":guilabel:`(Dreieck nach unten)` nach dem Wort :guilabel:`beliebigen`, und "
+"wählen Sie :guilabel:`allen`."
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:88
 msgid "Finally, click the :guilabel:`Add` button."
 msgstr ""
+"Klicken Sie schlussendlich auf die Schaltfläche :guilabel:`Hinzufügen`."
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst-1
 msgid "The Custom Filter pop-up with the parameters set."
 msgstr ""
+"Das Pop-up-Fenster eines benutzerdefinierten Filters mit den eingestellten "
+"Parametern."
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst:94
 msgid ""
@@ -1837,10 +2083,13 @@ msgid ""
 ":guilabel:`Javascript` appear. In this example, only :guilabel:`Marc Demo` "
 "meets these criteria."
 msgstr ""
+"Jetzt werden nur Mitarbeiter mit dem Level :guilabel:`Experte` der Kompetenz"
+" :guilabel:`Javascript` angezeigt. In diesem Beispiel erfüllt nur "
+":guilabel:`Marc Demo` diese Kriterien."
 
 #: ../../content/applications/hr/appraisals/skills_evolution.rst-1
 msgid "The employees with expert Javascript skills."
-msgstr ""
+msgstr "Die Mitarbeiter mit Expertenkompetenzen in Javascript."
 
 #: ../../content/applications/hr/attendances.rst:5
 msgid "Attendances"
@@ -2673,7 +2922,7 @@ msgstr ":doc:`attendances/check_in_check_out`"
 
 #: ../../content/applications/hr/attendances.rst:307
 msgid ":doc:`attendances/kiosks`"
-msgstr ""
+msgstr ":doc:`attendances/kiosks`"
 
 #: ../../content/applications/hr/attendances.rst:308
 msgid ":doc:`attendances/hardware`"
@@ -2896,10 +3145,14 @@ msgid ""
 "access to the *Attendances* app, must sign in and out of work using a kiosk."
 " The following are the physical requirements for setting up a kiosk."
 msgstr ""
+"Mitarbeiter, die **keine** Datenbankbenutzer sind und daher **keinen** "
+"Zugriff auf die App *Anwesenheiten* haben, müssen sich über einen Kiosk an- "
+"und abmelden. Im Folgenden sind die physischen Anforderungen für die "
+"Einrichtung eines Kiosks aufgeführt."
 
 #: ../../content/applications/hr/attendances/hardware.rst:10
 msgid "Kiosk devices"
-msgstr ""
+msgstr "Kioksgeräte"
 
 #: ../../content/applications/hr/attendances/hardware.rst:12
 msgid ""
@@ -2910,6 +3163,12 @@ msgid ""
 "kiosks only, but any device with an internet browser is able to be set up as"
 " a kiosk."
 msgstr ""
+"Ein Kiosk ist eine Selbstbedienungsstation, an der Mitarbeiter mit einem "
+":ref:`Ausweis <attendances/hardware/badges>` oder einem :ref:`RFID-"
+"Schlüsselanhänger <attendances/hardware/rfid>` :ref:`ein- und auschecken  "
+"<attendances/kiosk-mode-entry>` können. Normalerweise sind diese Geräte nur "
+"für Kioske vorgesehen, aber jedes Gerät mit einem Internetbrowser kann als "
+"Kiosk eingerichtet werden."
 
 #: ../../content/applications/hr/attendances/hardware.rst:17
 msgid ""
@@ -2917,22 +3176,25 @@ msgid ""
 ":ref:`configuration <attendances/kiosk-settings>` section of the "
 "*Attendances* app."
 msgstr ""
+"Ein Kiosk wird verwendet, indem Sie zu der Webseite navigieren, die im "
+"Abschnitt :ref:`Konfiguration <attendances/kiosk-settings>` der App "
+"*Anwesenheiten* angegeben ist."
 
 #: ../../content/applications/hr/attendances/hardware.rst:20
 msgid "Kiosks are set up using one of the following types of devices:"
-msgstr ""
+msgstr "Kioske werden mit einem der folgenden Gerätetypen eingerichtet:"
 
 #: ../../content/applications/hr/attendances/hardware.rst:22
 msgid "Laptop or Desktop computer"
-msgstr ""
+msgstr "Laptop- oder Desktop-Computer"
 
 #: ../../content/applications/hr/attendances/hardware.rst:23
 msgid "Tablet"
-msgstr ""
+msgstr "Tablet"
 
 #: ../../content/applications/hr/attendances/hardware.rst:24
 msgid "Mobile phone (Android or iOS)"
-msgstr ""
+msgstr "Mobiltelefon (Android oder iOS)"
 
 #: ../../content/applications/hr/attendances/hardware.rst:27
 msgid ""
@@ -2940,12 +3202,17 @@ msgid ""
 "space. That's why most consider using a smaller device with a touchscreen as"
 " a kiosk."
 msgstr ""
+"Touchscreens sind einfach zu bedienen und Tablets und Mobiltelefone nehmen "
+"weniger Platz in Anspruch. Deshalb ziehen die meisten in Betracht, ein "
+"kleineres Gerät mit Touchscreen als Kiosk zu verwenden."
 
 #: ../../content/applications/hr/attendances/hardware.rst:30
 msgid ""
 "It is recommended to place kiosks on a secure stand, or mount them securely "
 "on a wall."
 msgstr ""
+"Es wird empfohlen, die Kioske auf einem sicheren Ständer zu platzieren oder "
+"sie sicher an einer Wand zu befestigen."
 
 #: ../../content/applications/hr/attendances/hardware.rst:35
 msgid "Badges"
@@ -2956,6 +3223,9 @@ msgid ""
 "Badges are a way for employees to quickly sign in and out from a kiosk, as "
 "badges are scanned by the kiosk's camera to quickly identify the employee."
 msgstr ""
+"Mit Ausweisen können sich Mitarbeiter schnell an einem Kiosk an- und "
+"abmelden, da die Ausweise von der Kamera des Kiosks gescannt werden, um den "
+"Mitarbeiter schnell zu identifizieren."
 
 #: ../../content/applications/hr/attendances/hardware.rst:40
 msgid ""
@@ -2963,6 +3233,10 @@ msgid ""
 "Next, click on the desired employee card to open the employee's form, then "
 "click the :guilabel:`HR Settings` tab."
 msgstr ""
+"Um einen Ausweis zu erstellen, navigieren Sie zunächst zur "
+":menuselection:`Mitarbeiter-App`. Klicken Sie dann auf die gewünschte "
+"Mitarbeiterkarte, um das Formular des Mitarbeiters zu öffnen, und klicken "
+"Sie dann auf den Reiter :guilabel:`HR-Einstellungen`."
 
 #: ../../content/applications/hr/attendances/hardware.rst:43
 msgid ""
@@ -2973,6 +3247,12 @@ msgid ""
 ":guilabel:`Print Badge` at the end of the badge ID number to create a PDF "
 "file of the badge."
 msgstr ""
+"Im Abschnitt :guilabel:`ANWESENHEIT/KASSENSYSTEM/FERTIGUNG` befindet sich "
+"ein Feld :guilabel:`Ausweis-ID`. Wenn dieses Feld leer ist, klicken Sie am "
+"Ende der Zeile :guilabel:`Ausweis-ID` auf :guilabel:`Generieren`, woraufhin "
+"das Feld automatisch mit einer neuen Ausweis-ID-Nummer ausgefüllt wird. "
+"Klicken Sie dann am Ende der Ausweis-ID-Nummer auf :guilabel:`Ausweis "
+"drucken`, um eine PDF-Datei des Ausweises zu erstellen."
 
 #: ../../content/applications/hr/attendances/hardware.rst:48
 msgid ""
@@ -3078,13 +3358,15 @@ msgstr ""
 
 #: ../../content/applications/hr/attendances/kiosks.rst:3
 msgid "Kiosks"
-msgstr ""
+msgstr "Kioske"
 
 #: ../../content/applications/hr/attendances/kiosks.rst:5
 msgid ""
 "Odoo's *Attendances* app allows employees to check in and out of work "
 "directly from the database, or from a kiosk."
 msgstr ""
+"Mit Odoo *Anwesenheiten* können Mitarbeiter direkt über die Datenbank oder "
+"einen Kiosk ein- und auschecken."
 
 #: ../../content/applications/hr/attendances/kiosks.rst:8
 msgid ""
@@ -3483,6 +3765,9 @@ msgid ""
 "To view a full list of all employee certifications, navigate to "
 ":menuselection:`Employees app --> Reporting --> Certifications`."
 msgstr ""
+"Um eine vollständige Liste aller Mitarbeiterzertifizierungen zu erhalten, "
+"navigieren Sie zu :menuselection:`Mitarbeiter --> Berichtswesen --> "
+"Zertifizierungen`."
 
 #: ../../content/applications/hr/employees/certifications.rst:20
 msgid ""
@@ -4398,7 +4683,7 @@ msgid "Resumé tab"
 msgstr "Reiter „Lebenslauf“"
 
 #: ../../content/applications/hr/employees/new_employee.rst:110
-#: ../../content/applications/hr/payroll.rst:874
+#: ../../content/applications/hr/payroll.rst:855
 #: ../../content/applications/hr/recruitment/recruitment-flow.rst:38
 msgid "Resumé"
 msgstr "Lebenslauf"
@@ -6037,6 +6322,9 @@ msgid ""
 "application, for both :ref:`settings <fleet/settings>` and "
 ":ref:`manufacturers <fleet/manufacturers>`."
 msgstr ""
+"Dieses Dokument beschreibt alle Konfigurationen und Einstellungen für die "
+"*Fuhrpark*-App, sowohl für die :ref:`Einstellungen <fleet/settings>` als "
+"auch für :ref:`Hersteller <fleet/manufacturers>`."
 
 #: ../../content/applications/hr/fleet.rst:15
 msgid ""
@@ -6044,6 +6332,10 @@ msgid ""
 "Configuration --> Settings`. Only two settings need configuration: "
 ":guilabel:`End Date Contract Alert` and :guilabel:`New Vehicle Request`."
 msgstr ""
+"Um das Einstellungsmenü aufzurufen, gehen Sie zu :menuselection:`Fuhrpark "
+"--> Konfiguration --> Einstellungen`. Es gibt nur zwei Einstellungen, die "
+"konfiguriert werden müssen: :guilabel:`Benachrichtigung bei Vertragsende` "
+"und :guilabel:`Neue Fahrzeuganfrage`."
 
 #: ../../content/applications/hr/fleet.rst-1
 msgid "Settings available for the Fleet application."
@@ -6060,6 +6352,11 @@ msgid ""
 "receive an email informing them a vehicle contract is about to expire in the"
 " number of days defined in this field."
 msgstr ""
+"Das Feld :guilabel:`Benachrichtigung bei Vertragsende` definiert, wie viele "
+"Tage vor dem Ende des Fahrzeugvertrags ein Alarm gesendet werden soll. Die "
+"verantwortlichen Personen erhalten eine E-Mail, die sie darüber informiert, "
+"dass ein Fahrzeugvertrag in der in diesem Feld definierten Anzahl von Tagen "
+"abläuft."
 
 #: ../../content/applications/hr/fleet.rst:31
 msgid ""
@@ -6158,6 +6455,12 @@ msgid ""
 "<fleet/models>` from four major auto manufacturers, and one major bicycle "
 "manufacturer: Audi, BMW, Mercedes, Opel (cars), and Eddy Merckx (bicycle)."
 msgstr ""
+"Die Hersteller werden in einer alphabetischer Liste angezeigt. Auf der Karte"
+" eines jeden Herstellers ist angegeben, wie viele Modelle für den jeweiligen"
+" Hersteller konfiguriert sind. Odoo wird mit sechsundvierzig "
+"vorkonfigurierten :ref:`Modellen <fleet/models>` von vier großen "
+"Autoherstellern und einem großen Fahrradhersteller geliefert: Audi, BMW, "
+"Mercedes, Opel (Autos) und Eddy Merckx (Fahrrad)."
 
 #: ../../content/applications/hr/fleet.rst-1
 msgid "Manufacturer card with the amount of models listed."
@@ -6184,7 +6487,7 @@ msgstr ""
 
 #: ../../content/applications/hr/fleet.rst:85
 msgid ":doc:`fleet/models`"
-msgstr ""
+msgstr ":doc:`fleet/models`"
 
 #: ../../content/applications/hr/fleet.rst:86
 msgid ":doc:`fleet/new_vehicle`"
@@ -6196,11 +6499,11 @@ msgstr ":doc:`fleet/service`"
 
 #: ../../content/applications/hr/fleet.rst:88
 msgid ":doc:`fleet/accidents`"
-msgstr ""
+msgstr ":doc:`fleet/accidents`"
 
 #: ../../content/applications/hr/fleet/accidents.rst:3
 msgid "Accidents"
-msgstr ""
+msgstr "Unfälle"
 
 #: ../../content/applications/hr/fleet/accidents.rst:5
 msgid ""
@@ -6208,6 +6511,9 @@ msgid ""
 "crucial for understanding vehicle maintenance costs and identifying safe "
 "drivers."
 msgstr ""
+"Bei der Verwaltung eines Fuhrparks sind Unfälle nicht vermeidbar. Die "
+"Nachverfolgung von Unfällen ist entscheidend, um die Kosten für die "
+"Fahrzeugwartung zu verstehen und sichere Fahrer zu ermitteln."
 
 #: ../../content/applications/hr/fleet/accidents.rst:8
 msgid ""
@@ -6287,7 +6593,7 @@ msgstr ""
 #: ../../content/applications/hr/fleet/service.rst:380
 #: ../../content/applications/hr/frontdesk.rst:33
 #: ../../content/applications/hr/lunch/products.rst:12
-#: ../../content/applications/hr/payroll.rst:894
+#: ../../content/applications/hr/payroll.rst:875
 #: ../../content/applications/hr/payroll/work_entries.rst:56
 #: ../../content/applications/hr/time_off.rst:221
 msgid "Enter the following information on the form:"
@@ -6982,6 +7288,10 @@ msgid ""
 "menu. To create a new category, type in the category and then click "
 ":guilabel:`Create (new category)`."
 msgstr ""
+":guilabel:`Kategorie`: Wählen Sie die Kategorie, unter der das Fahrzeug "
+"eingeordnet ist, aus dem Dropdown-Menü. Um eine neue Kategorie zu erstellen,"
+" geben Sie die Kategorie ein und klicken dann auf :guilabel:`„Neue "
+"Kategorie“ erstellen`."
 
 #: ../../content/applications/hr/fleet/models.rst:80
 msgid "Information tab"
@@ -6996,7 +7306,7 @@ msgstr ""
 
 #: ../../content/applications/hr/fleet/models.rst:87
 msgid "Model section"
-msgstr ""
+msgstr "Abschnitt „Modell“"
 
 #: ../../content/applications/hr/fleet/models.rst:89
 msgid ""
@@ -7027,10 +7337,12 @@ msgid ""
 ":guilabel:`Trailer Hitch`: tick this checkbox if the vehicle has a trailer "
 "hitch installed."
 msgstr ""
+":guilabel:`Anhängerkupplung`: Kreuzen Sie dieses Kästchen an, wenn das "
+"Fahrzeug eine Anhängerkupplung hat."
 
 #: ../../content/applications/hr/fleet/models.rst:96
 msgid "Salary section"
-msgstr ""
+msgstr "Abschnitt „Gehalt“"
 
 #: ../../content/applications/hr/fleet/models.rst:99
 msgid ""
@@ -7039,12 +7351,19 @@ msgid ""
 "The cost values are all *monthly*, with the exception of the "
 ":guilabel:`Catalog Value (VAT Incl.)`."
 msgstr ""
+"Der Abschnitt :guilabel:`Gehalt` erscheint **nur** für Unternehmen mit Sitz "
+"in Belgien und **nur**, wenn die Lokalisierungseinstellung des Unternehmens "
+"auf Belgien eingestellt ist. Die Kostenwerte sind alle *monatlich*, mit "
+"Ausnahme des :guilabel:`Bruttolistenpreis`."
 
 #: ../../content/applications/hr/fleet/models.rst:103
 msgid ""
 ":guilabel:`Can be requested`: tick this checkbox if employees can request "
 "this model vehicle, if a vehicle is part of their employee contract."
 msgstr ""
+":guilabel:`Kann angefragt werden`: Kreuzen Sie dieses Kästchen an, wenn "
+"Mitarbeiter dieses Fahrzeugmodell anfordern können, vorausgesetzt, ein "
+"Firmenwagen ist Teil des Mitarbeitervertrags."
 
 #: ../../content/applications/hr/fleet/models.rst:105
 msgid ""
@@ -7064,12 +7383,20 @@ msgid ""
 ":guilabel:`Engine` section of the :guilabel:`Information` tab) on the "
 "vehicle form."
 msgstr ""
+":guilabel:`C02-Gebühr`: Stellt die CO2-Emissionsgebühr an die belgische "
+"Regierung dar. Dieser Wert wird automatisch auf der Grundlage belgischer "
+"Gesetze und Vorschriften berechnet und **kann nicht** geändert werden. Der "
+"Wert basiert auf dem Wert, der in das Feld :guilabel:`CO2-Emissionen` (im "
+"Abschnitt :guilabel:`Motor` des Reiters :guilabel:`Informationen`) "
+"Fahrzeugformulars eingegeben wurde."
 
 #: ../../content/applications/hr/fleet/models.rst:113
 msgid ""
 "Modifying the :guilabel:`CO2 Emissions` field adjusts the value in the "
 ":guilabel:`CO2 fee` field."
 msgstr ""
+"Wenn Sie das Feld :guilabel:`CO2-Emissionen` ändern, wird der Wert im Feld "
+":guilabel:`CO2-Gebühr` angepasst."
 
 #: ../../content/applications/hr/fleet/models.rst:115
 msgid ""
@@ -7081,6 +7408,14 @@ msgid ""
 "*vehicle model*, it only depreciates based on the *contract* linked to a "
 "specific vehicle."
 msgstr ""
+":guilabel:`Kosten (Abschreibung)`: Geben Sie die monatlichen Kosten für das "
+"Fahrzeug ein, die im Gehaltskonfigurator für zukünftige Mitarbeiter "
+"erscheinen. Dieser Wert wirkt sich auf das Brutto- und Nettogehalt des "
+"Mitarbeiters aus, dem das Fahrzeug zugewiesen wird. Dieser Wert wird im "
+"Laufe der Zeit gemäß den lokalen Steuergesetzen abgeschrieben. Die "
+":guilabel:`Kosten (Abschreibung)` werden **nicht** automatisch auf das "
+"*Fahrzeugmodell* abgeschrieben, sondern nur auf der Grundlage des "
+"*Vertrags*, der mit einem bestimmten Fahrzeug verbunden ist."
 
 #: ../../content/applications/hr/fleet/models.rst:120
 msgid ""
@@ -7088,6 +7423,10 @@ msgid ""
 ":guilabel:`Cost (Depreciated)` and the :guilabel:`C02 fee` fields. It also "
 "depreciated over time."
 msgstr ""
+":guilabel:`Gesamtkosten (Abschreibung)`: Dieser Wert setzt sich aus der "
+"Kombination der beiden Felder :guilabel:`Kosten (Abschreibung)` und "
+":guilabel:`CO2-Gebühr` zusammen und wird ebenfalls im Laufe der Zeit "
+"abgeschrieben."
 
 #: ../../content/applications/hr/fleet/models.rst:124
 msgid "Engine"
@@ -7101,6 +7440,12 @@ msgid ""
 "Hybrid Diesel`, :guilabel:`Plug-in Hybrid Gasoline`, :guilabel:`CNG`, "
 ":guilabel:`LPG`, :guilabel:`Hydrogen`, or :guilabel:`Electric`."
 msgstr ""
+":guilabel:`Kraftstoffart`: Wählen Sie aus dem Dropdown-Menü die "
+"Kraftstoffart aus, die das Fahrzeug verwendet. Die Optionen sind "
+":guilabel:`Diesel`, :guilabel:`Benzin`, :guilabel:`Hybrid-Diesel`, "
+":guilabel:`Hybrid-Benzin`, :guilabel:`Plug-in-Hybrid-Diesel`, "
+":guilabel:`Plug-in-Hybrid-Benzin`, :guilabel:`CNG`, :guilabel:`LPG`, "
+":guilabel:`Wasserstoff`, oder :guilabel:`Elektrisch`."
 
 #: ../../content/applications/hr/fleet/models.rst:130
 msgid ""
@@ -7117,12 +7462,16 @@ msgid ""
 ":guilabel:`CO2 Standard`: enter the standard amount of carbon dioxide in "
 "grams per kilometer (g/km) for a similar-sized vehicle."
 msgstr ""
+":guilabel:`CO2-Norm`: Geben Sie die Standardmenge an Kohlendioxid in Gramm "
+"pro Kilometer (g/km) für ein Fahrzeug ähnlicher Größe an."
 
 #: ../../content/applications/hr/fleet/models.rst:134
 msgid ""
 ":guilabel:`Transmission`: select :guilabel:`Manual` or :guilabel:`Automatic`"
 " transmission from the drop-down menu."
 msgstr ""
+":guilabel:`Getriebe`: Wählen Sie :guilabel:`Handschaltung` oder "
+":guilabel:`Automatik` aus dem Drop-down-Menü aus."
 
 #: ../../content/applications/hr/fleet/models.rst:136
 msgid ""
@@ -7144,6 +7493,11 @@ msgid ""
 "regulations, and varies depending on the location. It is recommended to "
 "check with the accounting department to ensure this value is correct."
 msgstr ""
+":guilabel:`Fahrzeugbesteuerung`: Geben Sie den Betrag ein, der auf der "
+"Grundlage der Motorgröße des Fahrzeugs besteuert wird. Dieser Wert wird "
+"durch lokale Steuern und Vorschriften bestimmt und variiert je nach "
+"Standort. Es wird empfohlen, sich bei der Buchhaltung zu erkundigen, ob "
+"dieser Wert korrekt ist."
 
 #: ../../content/applications/hr/fleet/models.rst:143
 msgid ""
@@ -7151,6 +7505,10 @@ msgid ""
 "engine specifications, and **cannot** be modified. The percentage is based "
 "on the localization settings and local tax laws."
 msgstr ""
+":guilabel:`Steuerabzug`: Dieses Feld wird entsprechend den Spezifikationen "
+"des Motors automatisch ausgefüllt und **kann nicht** geändert werden. Der "
+"Prozentsatz hängt von den Lokalisierungseinstellungen und den lokalen "
+"Steuergesetzen ab."
 
 #: ../../content/applications/hr/fleet/models.rst:147
 msgid "Vendors tab"
@@ -7198,6 +7556,11 @@ msgid ""
 "fleet. Model categories are set on the :ref:`vehicle model form <fleet/add-"
 "model>`."
 msgstr ""
+"Um einen Fuhrpark optimal zu organisieren, empfiehlt es sich, "
+"Fahrzeugmodelle in bestimmten Kategorien zu organisieren, damit Sie leicht "
+"erkennen können, welche Arten von Fahrzeugen sich im Fuhrpark befinden. "
+"Modellkategorien werden über das :ref:`Formular für Fahrzeugmodell "
+"<fleet/add-model>` festgelegt."
 
 #: ../../content/applications/hr/fleet/models.rst:175
 msgid ""
@@ -7230,6 +7593,10 @@ msgid ""
 "draggable` :guilabel:`(draggable)` icon to the left of any desired category "
 "name, and drag the line to the desired position."
 msgstr ""
+"Wenn Sie die Reihenfolge der Kategorien in der Liste ändern möchten, klicken"
+" Sie auf das Symbol :icon:`oi-draggable` :guilabel:`(6 Punkte)` links neben "
+"der gewünschten Kategorie und ziehen Sie die Zeile an die gewünschte "
+"Position."
 
 #: ../../content/applications/hr/fleet/models.rst:191
 msgid ""
@@ -7237,6 +7604,10 @@ msgid ""
 "may be preferable to view the vehicle categories in a specific order, for "
 "example, by size, or the numbers of passengers the vehicle can carry."
 msgstr ""
+"Die Reihenfolge der Liste hat keinen Einfluss auf die Datenbank. Es kann "
+"jedoch wünschenswert sein, die Fahrzeugkategorien in einer bestimmten "
+"Reihenfolge anzuzeigen, z. B. nach Größe oder der Anzahl der Passagiere, die"
+" das Fahrzeug befördern kann."
 
 #: ../../content/applications/hr/fleet/models.rst-1
 msgid "List view of the models in the fleet."
@@ -10836,7 +11207,7 @@ msgstr ""
 
 #: ../../content/applications/hr/lunch.rst:117
 msgid ":doc:`lunch/vendors`"
-msgstr ""
+msgstr ":doc:`lunch/vendors`"
 
 #: ../../content/applications/hr/lunch.rst:118
 msgid ":doc:`lunch/products`"
@@ -12388,6 +12759,8 @@ msgid ""
 "Before :doc:`products can be added <products>` to the *Lunch* app, the "
 "restaurants that provide the food **must** be configured."
 msgstr ""
+"Vor dem :doc:`Hinzufügen von Produkten <products>` zur *Mittagessenapp* "
+"**müssen** die Restaurants, die die Gerichte anbieten, konfiguriert werden."
 
 #: ../../content/applications/hr/lunch/vendors.rst:8
 msgid ""
@@ -12396,6 +12769,12 @@ msgid ""
 "*Lunch* app appear in a default Kanban view. To change to a list view, click"
 " the :icon:`oi-view-list` :guilabel:`(list)` icon in the top-right corner."
 msgstr ""
+"Navigieren Sie zum Hinzufügen eines neuen Lieferanten zunächst zu "
+":menuselection:`Mittagessen --> Konfiguration: Lieferanten`, und alle "
+"derzeit konfigurierten Lieferanten für die *Mittagessenapp* erscheinen in "
+"einer Standard-Kanban-Ansicht. Um zur Listenansicht zu wechseln, klicken Sie"
+" auf das Symbol :icon:`oi-view-list` :guilabel:`(Liste)` in der oberen "
+"rechten Ecke."
 
 #: ../../content/applications/hr/lunch/vendors.rst:14
 msgid ""
@@ -12414,23 +12793,23 @@ msgstr ""
 
 #: ../../content/applications/hr/lunch/vendors.rst:20
 msgid "Fill out the following fields on the vendor form:"
-msgstr ""
+msgstr "Füllen Sie die folgenden Felder des Lieferantenformulars aus:"
 
 #: ../../content/applications/hr/lunch/vendors.rst:22
 msgid ":ref:`Vendor information <lunch/vendor-info>`"
-msgstr ""
+msgstr ":ref:`Lieferantendaten <lunch/vendor-info>`"
 
 #: ../../content/applications/hr/lunch/vendors.rst:23
 msgid ":ref:`Availability <lunch/availability>`"
-msgstr ""
+msgstr ":ref:`Verfügbarkeit <lunch/availability>`"
 
 #: ../../content/applications/hr/lunch/vendors.rst:24
 msgid ":ref:`Orders <lunch/orders>`"
-msgstr ""
+msgstr ":ref:`Bestellungen <lunch/orders>`"
 
 #: ../../content/applications/hr/lunch/vendors.rst:25
 msgid ":ref:`Extras <lunch/extras>`"
-msgstr ""
+msgstr ":ref:`Extras <lunch/extras>`"
 
 #: ../../content/applications/hr/lunch/vendors.rst:30
 msgid "Vendor information"
@@ -12450,6 +12829,14 @@ msgid ""
 "allows for more detail, aside from the name, to be entered, such as contact "
 "information."
 msgstr ""
+":guilabel:`Lieferant` (unterhalb der Zeile für den Namen des Lieferanten): "
+"Wählen Sie den Lieferanten aus dem Dropdown-Menü aus. Wenn der Lieferant "
+"noch nicht im System eingetragen ist, geben Sie den Namen des Lieferanten "
+"ein und klicken Sie entweder auf :guilabel:`„neuen Lieferantennamen“ "
+"erstellen`, um ihn hinzuzufügen, oder auf :guilabel:`Erstellen und "
+"bearbeiten ...`, um den Lieferanten zu erstellen und zu bearbeiten. Im "
+"Lieferantenformular können Sie neben dem Namen noch weitere Details "
+"eingeben, z. B. Kontaktinformationen."
 
 #: ../../content/applications/hr/lunch/vendors.rst:40
 msgid ""
@@ -12457,6 +12844,9 @@ msgid ""
 ":guilabel:`Vendor` text field (above, for the vendor's name) updates with "
 "the name of the vendor chosen from the drop-down menu."
 msgstr ""
+"Wenn das Dropdown-Feld :guilabel:`Lieferant` ausgewählt wird, wird das "
+"Textfeld :guilabel:`Lieferant` (oben, für den Namen des Lieferanten) mit dem"
+" Namen des aus dem Dropdown-Menü ausgewählten Lieferanten aktualisiert."
 
 #: ../../content/applications/hr/lunch/vendors.rst:44
 msgid ""
@@ -12469,14 +12859,16 @@ msgstr ""
 #: ../../content/applications/hr/lunch/vendors.rst:47
 msgid ":guilabel:`Address`: enter the vendor's address in the various fields."
 msgstr ""
+":guilabel:`Adresse`: Geben Sie die Adresse des Lieferanten in diese Felder "
+"ein."
 
 #: ../../content/applications/hr/lunch/vendors.rst:48
 msgid ":guilabel:`Email`: enter the vendor's email."
-msgstr ""
+msgstr ":guilabel:`E-Mail`: Geben Sie die E-Mail-Adresse des Lieferanten ein."
 
 #: ../../content/applications/hr/lunch/vendors.rst:49
 msgid ":guilabel:`Phone`: enter the vendor's phone number."
-msgstr ""
+msgstr ":guilabel:`Telefon`: Geben Sie die Telefonnummer des Lieferanten ein."
 
 #: ../../content/applications/hr/lunch/vendors.rst:50
 msgid ""
@@ -12504,10 +12896,14 @@ msgid ""
 "Tick the corresponding checkbox for each day of the week the vendor is "
 "available."
 msgstr ""
+"Der Abschnitt :guilabel:`VERFÜGBARKEIT` zeigt eine Tabelle mit zwei Zeilen. "
+"Die obere Zeile ist mit den Wochentagen gefüllt, die untere Zeile mit "
+"Kontrollkästchen. Markieren Sie das entsprechende Kästchen für jeden "
+"Wochentag, an dem der Lieferant verfügbar ist."
 
 #: ../../content/applications/hr/lunch/vendors.rst:67
 msgid "By default, Monday through Friday are ticked."
-msgstr ""
+msgstr "Standardmäßig sind Montag bis Freitag mit Häkchen versehen."
 
 #: ../../content/applications/hr/lunch/vendors.rst-1
 msgid "The default view of the availability section, with Mon-Fri enabled."
@@ -12544,6 +12940,8 @@ msgid ""
 "An `HQ Office` location is created by default when creating a database, and "
 "is available to select from the list."
 msgstr ""
+"Bei der Erstellung einer Datenbank wird standardmäßig ein Ort `HQ Office` "
+"erstellt, den Sie aus der Liste auswählen können."
 
 #: ../../content/applications/hr/lunch/vendors.rst:91
 msgid ""
@@ -12563,6 +12961,12 @@ msgid ""
 " format: `HH:MM`. Then select either :guilabel:`AM` or :guilabel:`PM` from "
 "the drop-down menu, next to the time field."
 msgstr ""
+":guilabel:`Bestellzeit`: Dieses Feld erscheint **nur**, wenn "
+":guilabel:`E-Mail` für :guilabel:`Bestellung senden via` ausgewählt wurde. "
+"Geben Sie die Uhrzeit ein, zu der eine Bestellung per E-Mail verschickt "
+"werden muss, damit sie akzeptiert wird. Geben Sie die Uhrzeit im Format "
+"`HH:MM` ein und wählen Sie dann entweder :guilabel:`vormittags` oder "
+":guilabel:`nachmittags` aus der Drop-down-Liste neben dem Uhrzeitfeld."
 
 #: ../../content/applications/hr/lunch/vendors.rst-1
 msgid "The orders section of a vendor form, with all fields filled out."
@@ -12580,6 +12984,10 @@ msgid ""
 "referred to as *add-ons*, can be shown. These can be configured in any "
 "manner that suits the products being offered."
 msgstr ""
+"Bei der Bestellung eines Artikels in der *Mittagessen-App* ist es möglich, "
+"zusätzliche Artikel anzuzeigen, die einer Bestellung hinzugefügt werden "
+"können, manchmal auch als *Extras* bezeichnet. Diese können auf jede Weise "
+"konfiguriert werden, die zu den angebotenen Produkten passt."
 
 #: ../../content/applications/hr/lunch/vendors.rst:110
 msgid ""
@@ -12588,6 +12996,10 @@ msgid ""
 "is labeled `Extras`, the second is labeled `Beverages`, and the third is "
 "labeled `Extra Label 3`."
 msgstr ""
+"Standardmäßig lässt Odoo drei Arten von Extras zu, die man sich als "
+"*Kategorien* vorstellen kann. Standardmäßig ist die erste Art oder (oder "
+"*Kategorie*) von Toppings mit `Extras` bezeichnet, die zweite mit `Getränke`"
+" und die dritte mit `Extra 3 Bezeichnung`."
 
 #: ../../content/applications/hr/lunch/vendors.rst:115
 msgid ""
@@ -12596,6 +13008,10 @@ msgid ""
 "means that only items which apply to **all** products from the vendor should"
 " be added."
 msgstr ""
+"Bei der Konfiguration der Extras ist es wichtig zu beachten, dass alle "
+"konfigurierten Extras für **jeden** Artikel des Lieferanten angezeigt "
+"werden. Das bedeutet, dass nur Artikel hinzugefügt werden sollten, die für "
+"**alle** Produkte des Lieferanten gelten."
 
 #: ../../content/applications/hr/lunch/vendors.rst:122
 msgid "Configure extras"
@@ -12614,30 +13030,40 @@ msgid ""
 ":guilabel:`Extra (#) Label`: enter a name for the type of extra, such as "
 "`Toppings`. This can be thought of as a *category*."
 msgstr ""
+":guilabel:`Extra (#) Bezeichnung`: Geben Sie einen Namen für die Art des "
+"Extras ein, z. B. `Toppings`. Dies kann man sich als *Kategorie* vorstellen."
 
 #: ../../content/applications/hr/lunch/vendors.rst:128
 msgid ""
 ":guilabel:`Extra (#) Quantity`: select how the extras are selected. The "
 "options are:"
 msgstr ""
+":guilabel:`Extra (#) Menge`: Wählen Sie aus, wie die Extras ausgewählt "
+"werden. Die Optionen sind:"
 
 #: ../../content/applications/hr/lunch/vendors.rst:130
 msgid ""
 ":guilabel:`None or More`: select this if the user is not required to make a "
 "selection."
 msgstr ""
+":guilabel:`Keins oder mehrere`: Wählen Sie diese Option, wenn der Benutzer "
+"nichts auswählen muss."
 
 #: ../../content/applications/hr/lunch/vendors.rst:131
 msgid ""
 ":guilabel:`One or More`: select this to **require** the user to make **at "
 "least one** selection."
 msgstr ""
+":guilabel:`Eins oder mehrere`: Wählen Sie diese Option, wenn der Benutzer "
+"**mindestens** eine Auswahl treffen **muss**."
 
 #: ../../content/applications/hr/lunch/vendors.rst:132
 msgid ""
 ":guilabel:`Only One`: select this to **require** the user to **make only "
 "one** selection."
 msgstr ""
+":guilabel:`Nur eins`: Wählen Sie diese Option, wenn der Benutzer **nur eine "
+"Auswahl** treffen **muss**."
 
 #: ../../content/applications/hr/lunch/vendors.rst:135
 msgid "Add extras"
@@ -12671,6 +13097,8 @@ msgid ""
 "For a pizzeria that only offers personal pizzas, see their extras configured"
 " as follows:"
 msgstr ""
+"Für eine Pizzeria, die nur personalisierte Pizzen anbietet, sind die Extras "
+"wie folgt konfiguriert:"
 
 #: ../../content/applications/hr/lunch/vendors.rst:148
 msgid ""
@@ -13413,7 +13841,7 @@ msgstr ""
 "folgenden Abschnitte auf dem Formular aus."
 
 #: ../../content/applications/hr/payroll.rst:265
-#: ../../content/applications/hr/payroll.rst:730
+#: ../../content/applications/hr/payroll.rst:711
 #: ../../content/applications/hr/payroll/contracts.rst:40
 msgid "General information section"
 msgstr "Reiter „Allgemeine Informationen“"
@@ -14394,7 +14822,7 @@ msgstr ""
 " beiträgt, wählen Sie das Unternehmen aus dem Dropdown-Menü aus."
 
 #: ../../content/applications/hr/payroll.rst:619
-#: ../../content/applications/hr/payroll.rst:815
+#: ../../content/applications/hr/payroll.rst:796
 msgid "Description tab"
 msgstr "Reiter „Beschreibung“"
 
@@ -14506,58 +14934,11 @@ msgid "A new Input Type form filled in."
 msgstr "Ein ausgefülltes Formular für einen neuen Eingabetyp."
 
 #: ../../content/applications/hr/payroll.rst:669
-msgid "Salary attachment types"
-msgstr "Arten der Gehaltspfändung"
-
-#: ../../content/applications/hr/payroll.rst:671
-msgid ""
-"Salary attachments, also thought of as \"wage garnishments\", are portions "
-"of earnings taken out of a payslip for something specific. Much like all "
-"other aspects of payroll configurations, the types of salary attachments "
-"**must** be defined."
-msgstr ""
-"Gehaltspfändungen, auch „Lohnpfändungen“ genannt, sind Teile des "
-"Verdienstes, die von einer Gehaltsabrechnung für etwas Bestimmtes abgezogen "
-"werden. Wie bei allen anderen Aspekten der Gehaltsabrechnung müssen auch die"
-" Arten von Gehaltspfändungen definiert werden."
-
-#: ../../content/applications/hr/payroll.rst:675
-msgid ""
-"To view the currently configured salary attachments, navigate to "
-":menuselection:`Payroll app --> Configuration --> Salary --> Salary "
-"Attachment Types`. The default salary attachment types are "
-":guilabel:`Attachment of Salary`, :guilabel:`Assignment of Salary`, and "
-":guilabel:`Child Support`."
-msgstr ""
-"Um die aktuell konfigurierten Gehaltspfändungen anzuzeigen, navigieren Sie "
-"zu :menuselection:`Gehaltsabrechnung --> Konfiguration --> Gehalt --> Arten "
-"der Gehaltspfändung`. Die voreingestellten Gehaltspfändungsarten sind "
-":guilabel:`Gehaltspfändung`, :guilabel:`Lohnabtretung` und "
-":guilabel:`Kindergeld`."
-
-#: ../../content/applications/hr/payroll.rst:679
-msgid ""
-"To make a new type of salary attachment, click the :guilabel:`New` button. "
-"Then, enter the :guilabel:`Name`, the :guilabel:`Code` (used in the salary "
-"rules to compute payslips), and decide if it should have :guilabel:`No End "
-"Date`."
-msgstr ""
-"Um eine neue Art von Gehaltspfändung zu erstellen, klicken Sie auf die "
-"Schaltfläche :guilabel:`Neu`. Geben Sie dann den :guilabel:`Name`, den "
-":guilabel:`Code` (der in den Gehaltsregeln zur Berechnung der "
-"Gehaltsabrechnungen verwendet wird) ein und entscheiden Sie, ob er "
-":guilabel:`Kein Enddatum` haben soll."
-
-#: ../../content/applications/hr/payroll.rst-1
-msgid "A new salary attachment form filled in."
-msgstr "Ein ausgefülltes Formular für eine neue Gehaltspfändung."
-
-#: ../../content/applications/hr/payroll.rst:688
 #: ../../content/applications/hr/recruitment.rst:167
 msgid "Salary package configurator"
 msgstr "Gehaltspaket-Konfigurator"
 
-#: ../../content/applications/hr/payroll.rst:690
+#: ../../content/applications/hr/payroll.rst:671
 msgid ""
 "The various options under the :guilabel:`Salary Package Configurator` "
 "section of the :menuselection:`Payroll app --> Configuration --> Salary "
@@ -14574,7 +14955,7 @@ msgstr ""
 "fest, welche Leistungen einem Mitarbeiter in seinem Gehaltspaket angeboten "
 "werden können."
 
-#: ../../content/applications/hr/payroll.rst:695
+#: ../../content/applications/hr/payroll.rst:676
 msgid ""
 "Depending on what information an employee enters (such as deductions, "
 "dependents, etc.), their salary is adjusted accordingly. When an applicant "
@@ -14589,11 +14970,11 @@ msgstr ""
 "darauf aus, was der Bewerber sieht und was bei der Eingabe von Informationen"
 " ausgefüllt wird."
 
-#: ../../content/applications/hr/payroll.rst:701
+#: ../../content/applications/hr/payroll.rst:682
 msgid "Benefits"
 msgstr "Vorteile"
 
-#: ../../content/applications/hr/payroll.rst:703
+#: ../../content/applications/hr/payroll.rst:684
 msgid ""
 "When offering potential employees a position, there can be certain benefits "
 "set in Odoo, in addition to the salary, to make an offer more appealing "
@@ -14605,7 +14986,7 @@ msgstr ""
 "attraktiver zu gestalten (z. B. zusätzliche Urlaubstage, Firmenwagen, "
 "Kostenerstattung für Telefon oder Internet usw.)."
 
-#: ../../content/applications/hr/payroll.rst:707
+#: ../../content/applications/hr/payroll.rst:688
 msgid ""
 "To view the benefits, go to :menuselection:`Payroll app --> Configuration "
 "--> Salary Package Configurator: Benefits`. Benefits are grouped by "
@@ -14622,7 +15003,7 @@ msgstr ""
 msgid "A list view of all the benefits available for each structure type."
 msgstr "Eine Listenansicht aller verfügbaren Vorteile für jeden Strukturtyp."
 
-#: ../../content/applications/hr/payroll.rst:716
+#: ../../content/applications/hr/payroll.rst:697
 msgid ""
 "A company has two structure types, one labeled :guilabel:`Employee`, and "
 "another labeled :guilabel:`Intern`. The :guilabel:`Employee` structure type "
@@ -14635,7 +15016,7 @@ msgstr ""
 "Vorteil der Nutzung eines Firmenwagens, während der Strukturtyp "
 ":guilabel:`Praktikant` den Vorteil eines Mahlzeitschecks bietet."
 
-#: ../../content/applications/hr/payroll.rst:720
+#: ../../content/applications/hr/payroll.rst:701
 msgid ""
 "A person hired under the :guilabel:`Employee` structure type can use the "
 "company car benefit, but cannot have meal vouchers. A person hired under the"
@@ -14648,7 +15029,7 @@ msgstr ""
 ":guilabel:`Praktikant` eingestellt wird, kann Mahlzeitschecks nutzen, aber "
 "keinen Firmenwagen."
 
-#: ../../content/applications/hr/payroll.rst:724
+#: ../../content/applications/hr/payroll.rst:705
 msgid ""
 "To make a new benefit, click the :guilabel:`New` button, and enter the "
 "information in the fields on the blank benefits form."
@@ -14657,12 +15038,12 @@ msgstr ""
 ":guilabel:`Neu`, und geben Sie die Informationen in die Felder des leeren "
 "Vorteilsformulars ein."
 
-#: ../../content/applications/hr/payroll.rst:727
+#: ../../content/applications/hr/payroll.rst:708
 msgid "The various fields for creating a benefit are as follows:"
 msgstr ""
 "Die verschiedenen Felder zur Erstellung eines Vorteils sind wie folgt:"
 
-#: ../../content/applications/hr/payroll.rst:732
+#: ../../content/applications/hr/payroll.rst:713
 msgid ""
 ":guilabel:`Benefits`: enter the name for the benefit. This field is "
 "required."
@@ -14670,7 +15051,7 @@ msgstr ""
 ":guilabel:`Vorteil`: Geben Sie den Namen für den Vorteil ein. Dies ist ein "
 "Pflichtfeld."
 
-#: ../../content/applications/hr/payroll.rst:733
+#: ../../content/applications/hr/payroll.rst:714
 msgid ""
 ":guilabel:`Benefit Field`: select from the drop-down menu the type of "
 "benefit this is."
@@ -14678,7 +15059,7 @@ msgstr ""
 ":guilabel:`Vorteilsbereich`: Wählen Sie die Art des Vorteils aus dem "
 "Dropdown-Menü aus."
 
-#: ../../content/applications/hr/payroll.rst:734
+#: ../../content/applications/hr/payroll.rst:715
 msgid ""
 ":guilabel:`Cost Field`: select from the drop-down menu the type of cost "
 "incurred by the company for this specific benefit. The default options are "
@@ -14696,7 +15077,7 @@ msgstr ""
 ":guilabel:`Lohn mit Urlaubstagen` und :guilabel:`Arbeitszeitquote`. Abhängig"
 " von den Lokalisierungseinstellungen sind weitere Optionen verfügbar."
 
-#: ../../content/applications/hr/payroll.rst:739
+#: ../../content/applications/hr/payroll.rst:720
 msgid ""
 ":guilabel:`Related Type`: select from the drop-down menu what type of "
 "benefit it is. Select from :guilabel:`Monthly Benefit in Kind`, "
@@ -14711,7 +15092,7 @@ msgstr ""
 "Bargeld` oder :guilabel:`Nicht finanzielle Vorteile`. Diese ist ein "
 "Pflichtfeld"
 
-#: ../../content/applications/hr/payroll.rst:743
+#: ../../content/applications/hr/payroll.rst:724
 msgid ""
 ":guilabel:`Benefit Field`: select from the drop-down menu the specific field"
 " on the contract the benefit appears."
@@ -14719,7 +15100,7 @@ msgstr ""
 ":guilabel:`Vorteilsbereich`: Wählen Sie den Bereich aus dem Dropdown-Menü "
 "auf dem Vertrag, auf dem der Vorteil erscheint, aus."
 
-#: ../../content/applications/hr/payroll.rst:745
+#: ../../content/applications/hr/payroll.rst:726
 msgid ""
 ":guilabel:`Cost Field`: select the specific field on the contract that the "
 "cost of the benefit is linked to, using the drop-down menu. If this field is"
@@ -14730,7 +15111,7 @@ msgstr ""
 "Wenn Sie dieses Feld leer lassen, werden die Kosten für den Vorteil im "
 "Mitarbeiterbudget nicht berechnet."
 
-#: ../../content/applications/hr/payroll.rst:748
+#: ../../content/applications/hr/payroll.rst:729
 msgid ""
 ":guilabel:`Impacts Net Salary`: tick the checkbox if the benefit should "
 "impact the employee's net salary."
@@ -14738,7 +15119,7 @@ msgstr ""
 ":guilabel:`Beeinflusst Nettogehalt`: Aktivieren Sie das Kontrollkästchen, "
 "wenn sich die Leistung auf das Nettogehalt des Mitarbeiters auswirken soll."
 
-#: ../../content/applications/hr/payroll.rst:750
+#: ../../content/applications/hr/payroll.rst:731
 msgid ""
 ":guilabel:`Requested Documents`: select any document that is required to be "
 "submitted for this benefit, from the drop-down menu."
@@ -14746,7 +15127,7 @@ msgstr ""
 ":guilabel:`Angefragte Dokumente`: Wählen Sie aus dem Dropdown-Menü alle "
 "Dokumente aus, die für diesen Vorteil eingereicht werden müssen."
 
-#: ../../content/applications/hr/payroll.rst:752
+#: ../../content/applications/hr/payroll.rst:733
 msgid ""
 ":guilabel:`Mandatory Benefits`: using the drop-down menu, select the benefit"
 " that is required in order for this specific benefit to be offered to the "
@@ -14756,7 +15137,7 @@ msgstr ""
 "aus, die erforderlich ist, damit diesen speziellen Vorteil dem Mitarbeiter "
 "angeboten werden kann."
 
-#: ../../content/applications/hr/payroll.rst:755
+#: ../../content/applications/hr/payroll.rst:736
 msgid ""
 "For example, a benefit for car insurance would populate `Company Car` in "
 "this field. This would allow the car insurance benefit to **only** be "
@@ -14767,7 +15148,7 @@ msgstr ""
 "Versicherung **nur** angezeigt, wenn der Mitarbeiter die Leistung für einen "
 "Firmenwagen ausgewählt/aktiviert hat."
 
-#: ../../content/applications/hr/payroll.rst:758
+#: ../../content/applications/hr/payroll.rst:739
 msgid ""
 ":guilabel:`Salary Structure Type`: select from the drop-down menu which "
 "salary structure type this benefit applies to. This field is required."
@@ -14775,7 +15156,7 @@ msgstr ""
 ":guilabel:`Gehaltsstrukturtyp`: Wählen Sie aus dem Dropdown-Menü aus, für "
 "welchen Gehaltsstrukturtyp dieser Vorteil gilt. Dies ist ein Pflichtfeld."
 
-#: ../../content/applications/hr/payroll.rst:760
+#: ../../content/applications/hr/payroll.rst:741
 msgid ""
 ":guilabel:`Unit of Measure`: select the metric that the benefit is granted, "
 "using the drop-down menu. The options are :guilabel:`Days`, "
@@ -14789,11 +15170,11 @@ msgstr ""
 msgid "A new benefit form filled out for an internet subscription."
 msgstr "Ein neu ausgefülltes Vorteilsformular für ein Internet-Abonnement."
 
-#: ../../content/applications/hr/payroll.rst:768
+#: ../../content/applications/hr/payroll.rst:749
 msgid "Display section"
 msgstr "Abschnitt „Anzeige“"
 
-#: ../../content/applications/hr/payroll.rst:770
+#: ../../content/applications/hr/payroll.rst:751
 msgid ""
 ":guilabel:`Show Name`: tick the checkbox to have the benefit name appear in "
 "the salary package configurator."
@@ -14801,7 +15182,7 @@ msgstr ""
 ":guilabel:`Name anzeigen`: Aktivieren Sie das Kontrollkästchen, damit der "
 "Name des Vorteils im Gehaltspaket-Konfigurator angezeigt wird."
 
-#: ../../content/applications/hr/payroll.rst:772
+#: ../../content/applications/hr/payroll.rst:753
 msgid ""
 ":guilabel:`Display Type`: select from the drop-down menu how this benefit is"
 " displayed. The options are :guilabel:`Always Selected`, "
@@ -14815,7 +15196,7 @@ msgstr ""
 ":guilabel:`Schieberegler`, :guilabel:`Radiobuttons`, :guilabel:`Manuelle "
 "Eingabe`, oder :guilabel:`Text`. Dies ist ein Pflichtfeld."
 
-#: ../../content/applications/hr/payroll.rst:777
+#: ../../content/applications/hr/payroll.rst:758
 msgid ""
 "Depending on the selection made, additional configurations need to be made. "
 "For example, if :guilabel:`Radio Buttons` is selected, the individual radio "
@@ -14825,7 +15206,7 @@ msgstr ""
 "vorgenommen werden. Wenn zum Beispiel :guilabel:`Radiobuttons` ausgewählt "
 "ist, müssen die einzelnen Radiobuttons eingegeben werden."
 
-#: ../../content/applications/hr/payroll.rst:779
+#: ../../content/applications/hr/payroll.rst:760
 msgid ""
 ":guilabel:`Icon`: an icon from the `Font Awesome 4 library "
 "<https://fontawesome.com/v4/icons/>`_ can be visible for this benefit. Enter"
@@ -14838,7 +15219,7 @@ msgstr ""
 "ein Koffersymbol anzuzeigen, geben Sie in dieser Zeile den Code `fa fa-"
 "suitcase` ein."
 
-#: ../../content/applications/hr/payroll.rst:782
+#: ../../content/applications/hr/payroll.rst:763
 msgid ""
 ":guilabel:`Hide Description`: tick the checkbox to hide the benefit "
 "description if the benefit is not selected by the employee."
@@ -14847,7 +15228,7 @@ msgstr ""
 "die Vorteilsbeschreibung auszublenden, wenn der Vorteil vom Mitarbeiter "
 "nicht ausgewählt wurde."
 
-#: ../../content/applications/hr/payroll.rst:784
+#: ../../content/applications/hr/payroll.rst:765
 msgid ""
 ":guilabel:`Folded`: if the benefit should be folded, or hidden, because it "
 "is dependant on another benefit selection, tick the checkbox. The following "
@@ -14858,14 +15239,14 @@ msgstr ""
 "Sie das Kontrollkästchen. Die folgenden Felder werden angezeigt, wenn diese "
 "Option aktiviert ist:"
 
-#: ../../content/applications/hr/payroll.rst:787
+#: ../../content/applications/hr/payroll.rst:768
 msgid ""
 ":guilabel:`Fold Label`: enter a name for the folded section of the benefit."
 msgstr ""
 ":guilabel:`Bezeichnung einklappen`: Geben Sie den Namen für den "
 "eingeklappten Abschnitt des Vorteils ein."
 
-#: ../../content/applications/hr/payroll.rst:788
+#: ../../content/applications/hr/payroll.rst:769
 msgid ""
 ":guilabel:`Fold Res Field`: select the contract field this benefit is tied "
 "to using the drop-down menu. If this field is selected on the contract, then"
@@ -14875,11 +15256,11 @@ msgstr ""
 "Menü das Vertragsfeld aus, an das dieser Vorteil gebunden ist. Wenn dieses "
 "Feld im Vertrag ausgewählt ist, wird dieser Vorteil sichtbar."
 
-#: ../../content/applications/hr/payroll.rst:792
+#: ../../content/applications/hr/payroll.rst:773
 msgid "Activity section"
 msgstr "Abschnitt „Aktivität“"
 
-#: ../../content/applications/hr/payroll.rst:794
+#: ../../content/applications/hr/payroll.rst:775
 msgid ""
 ":guilabel:`Activity Type`: from the drop-down menu, select the activity type"
 " that is automatically created when this benefit is selected by the "
@@ -14889,7 +15270,7 @@ msgstr ""
 "aus, die automatisch erstellt wird, wenn dieser Vorteil vom Mitarbeiter "
 "ausgewählt wird."
 
-#: ../../content/applications/hr/payroll.rst:796
+#: ../../content/applications/hr/payroll.rst:777
 msgid ""
 ":guilabel:`Activity Creation`: select when the activity is created, either "
 "when the :guilabel:`Employee signs his contract`, or when the "
@@ -14901,7 +15282,7 @@ msgstr ""
 "Vertrag` oder bei :guilabel:`Vertrag wurde gegengezeichnet`. Klicken Sie auf"
 " das Optionsfeld neben der gewünschten Auswahl."
 
-#: ../../content/applications/hr/payroll.rst:799
+#: ../../content/applications/hr/payroll.rst:780
 msgid ""
 ":guilabel:`Activity Creation Type`: select the parameters for when the "
 "activity is created, either :guilabel:`When the benefit is set` or "
@@ -14913,7 +15294,7 @@ msgstr ""
 " eingestellt ist` oder :guilabel:`Wenn der Vorteil geändert wird`. Klicken "
 "Sie auf das Optionsfeld neben der gewünschten Auswahl."
 
-#: ../../content/applications/hr/payroll.rst:802
+#: ../../content/applications/hr/payroll.rst:783
 msgid ""
 ":guilabel:`Assigned to`: select the user the activity is automatically "
 "assigned to, using the drop-down menu."
@@ -14921,12 +15302,12 @@ msgstr ""
 ":guilabel:`Zugewiesen an`: Wählen Sie den Benutzer, dem die Aktivität "
 "automatisch zugewiesen wird, über das Dropdown-Menü aus."
 
-#: ../../content/applications/hr/payroll.rst:806
+#: ../../content/applications/hr/payroll.rst:787
 #: ../../content/applications/hr/payroll/contracts.rst:163
 msgid "Sign section"
 msgstr "Abschnitt „Unterzeichnen“"
 
-#: ../../content/applications/hr/payroll.rst:808
+#: ../../content/applications/hr/payroll.rst:789
 msgid ""
 ":guilabel:`Template to Sign`: if the employee is required to sign a document"
 " when selecting this benefit, select the document template from the drop-"
@@ -14936,7 +15317,7 @@ msgstr ""
 "Auswahl dieses Vorteils ein Dokument unterschreiben muss, wählen Sie die "
 "Dokumentvorlage aus dem Dropdown-Menü."
 
-#: ../../content/applications/hr/payroll.rst:811
+#: ../../content/applications/hr/payroll.rst:792
 msgid ""
 "For example, a benefit regarding the use of a company car may require the "
 "employee to sign a document acknowledging the company's car policies."
@@ -14945,18 +15326,18 @@ msgstr ""
 "erfordern, dass der Mitarbeiter ein Dokument unterzeichnet, in dem er die "
 "Richtlinien des Unternehmens zur Nutzung von Fahrzeugen anerkennt."
 
-#: ../../content/applications/hr/payroll.rst:817
+#: ../../content/applications/hr/payroll.rst:798
 msgid ""
 "Provide any additional information in this tab to help clarify the benefit."
 msgstr ""
 "Geben Sie in diesem Reiter zusätzliche Informationen an, um den Vorteil zu "
 "verdeutlichen."
 
-#: ../../content/applications/hr/payroll.rst:820
+#: ../../content/applications/hr/payroll.rst:801
 msgid "Personal info"
 msgstr "Persönliche Informationen"
 
-#: ../../content/applications/hr/payroll.rst:822
+#: ../../content/applications/hr/payroll.rst:803
 msgid ""
 "Every employee in Odoo has an *employee card* which is created when a "
 "candidate becomes an employee. This card includes all of their personal "
@@ -14967,7 +15348,7 @@ msgstr ""
 "persönlichen Informationen, den Lebenslauf, Arbeitsinformationen und "
 "Dokumente."
 
-#: ../../content/applications/hr/payroll.rst:826
+#: ../../content/applications/hr/payroll.rst:807
 msgid ""
 "The personal information is gathered from the salary package configurator "
 "section that a candidate fills out after being offered a position. This "
@@ -14979,7 +15360,7 @@ msgstr ""
 "hat. Diese persönlichen Informationen werden dann auf die Mitarbeiterkarte "
 "übertragen, wenn der Bewerber eingestellt wird."
 
-#: ../../content/applications/hr/payroll.rst:830
+#: ../../content/applications/hr/payroll.rst:811
 msgid ""
 "To view an employee's card, go to the main :menuselection:`Employees` app "
 "dashboard, and click on the employee's card."
@@ -14988,12 +15369,12 @@ msgstr ""
 " :menuselection:`Mitarbeiter`-App und klicken Sie auf die Karte des "
 "Mitarbeiters."
 
-#: ../../content/applications/hr/payroll.rst:834
+#: ../../content/applications/hr/payroll.rst:815
 msgid "An employee card can be thought of as an employee personnel file."
 msgstr ""
 "Eine Mitarbeiterkarte kann als eine Art Personalakte betrachtet werden."
 
-#: ../../content/applications/hr/payroll.rst:836
+#: ../../content/applications/hr/payroll.rst:817
 msgid ""
 "The :guilabel:`Personal Info` section lists all of the fields that are "
 "available to enter on the employee's card. To access this section, go to "
@@ -15014,7 +15395,7 @@ msgstr ""
 "Eine Liste aller persönlichen Informationen, die auf der einzugebenden "
 "Mitarbeiterkarte erscheinen."
 
-#: ../../content/applications/hr/payroll.rst:844
+#: ../../content/applications/hr/payroll.rst:825
 msgid ""
 "To edit a personal info entry, select an entry from the list on the "
 ":guilabel:`Personal Info` page, and modify the personal info on the form "
@@ -15025,13 +15406,13 @@ msgstr ""
 "Informationen` und ändern die persönlichen Daten in dem daraufhin "
 "angezeigten Formular."
 
-#: ../../content/applications/hr/payroll.rst:847
+#: ../../content/applications/hr/payroll.rst:828
 msgid "To create a new personal info entry, click the :guilabel:`New` button."
 msgstr ""
 "Um einen neuen Eintrag zu persönlichen Informationen zu erstellen, klicken "
 "Sie auf die Schaltfläche :guilabel:`Neu`."
 
-#: ../../content/applications/hr/payroll.rst:849
+#: ../../content/applications/hr/payroll.rst:830
 msgid ""
 "The required fields, aside from entering the :guilabel:`Information` name, "
 "are :guilabel:`Related Model`, :guilabel:`Related Field`, and "
@@ -15041,7 +15422,7 @@ msgstr ""
 "erforderlich: :guilabel:`Zugehörendes Modell`, :guilabel:`Zugehöriges Feld` "
 "und :guilabel:`Kategorie`."
 
-#: ../../content/applications/hr/payroll.rst:852
+#: ../../content/applications/hr/payroll.rst:833
 msgid ""
 "Select a :guilabel:`Related Model` from the drop-down menu. "
 ":guilabel:`Employee` populates the field by default, but the :guilabel:`Bank"
@@ -15053,7 +15434,7 @@ msgstr ""
 ":guilabel:`Bankkonto` ist auch verfügbar, wenn sich die Informationen "
 "stattdessen auf ein Bankkonto beziehen."
 
-#: ../../content/applications/hr/payroll.rst:856
+#: ../../content/applications/hr/payroll.rst:837
 msgid ""
 "Select a :guilabel:`Related Field` from the drop-down menu that best "
 "describes what kind of personal information this entry is, and where it is "
@@ -15068,7 +15449,7 @@ msgstr ""
 "persönlichen Informationen gespeichert werden sollen, z. B. "
 ":guilabel:`Adresse` oder :guilabel:`Persönliche Dokumente`."
 
-#: ../../content/applications/hr/payroll.rst:861
+#: ../../content/applications/hr/payroll.rst:842
 msgid ""
 "The two most important fields on the personal info form are :guilabel:`Is "
 "Required` and :guilabel:`Display Type`."
@@ -15076,7 +15457,7 @@ msgstr ""
 "Die beiden wichtigsten Felder auf dem Formular für persönliche Informationen"
 " sind :guilabel:`Ist erforderlich` und :guilabel:`Anzeigetyp`."
 
-#: ../../content/applications/hr/payroll.rst:864
+#: ../../content/applications/hr/payroll.rst:845
 msgid ""
 "Checking the :guilabel:`Is Required` box makes the field mandatory on the "
 "employee's card. The :guilabel:`Display Type` drop-down menu allows for the "
@@ -15095,7 +15476,7 @@ msgstr ""
 msgid "New personal information entry."
 msgstr "Neuer Eintrag für persönliche Informationen."
 
-#: ../../content/applications/hr/payroll.rst:876
+#: ../../content/applications/hr/payroll.rst:857
 msgid ""
 "The resumé section, housed within the salary package configurator section of"
 " the settings menu, is how salary information rules are configured when "
@@ -15106,7 +15487,7 @@ msgstr ""
 "Gehaltsinformationen konfiguriert, wenn potenziellen Mitarbeitern eine "
 "Stelle angeboten wird."
 
-#: ../../content/applications/hr/payroll.rst:879
+#: ../../content/applications/hr/payroll.rst:860
 msgid ""
 "When an offer is sent to a prospective employee, the values for the offer "
 "are computed from these settings, and appear on the offer page."
@@ -15115,7 +15496,7 @@ msgstr ""
 " Werte für das Angebot anhand dieser Einstellungen berechnet und auf der "
 "Angebotsseite angezeigt."
 
-#: ../../content/applications/hr/payroll.rst:882
+#: ../../content/applications/hr/payroll.rst:863
 msgid ""
 "To configure this section, navigate to :menuselection:`Payroll app --> "
 "Configuration --> Salary Package Configurator: Resumé`."
@@ -15124,7 +15505,7 @@ msgstr ""
 ":menuselection:`Gehaltsabrechnungsapp --> Konfiguration --> Gehaltspaket-"
 "Konfigurator: Zusammenfassung`."
 
-#: ../../content/applications/hr/payroll.rst:885
+#: ../../content/applications/hr/payroll.rst:866
 msgid ""
 "By default, there are three :guilabel:`Salary Structure Types` pre-"
 "configured in Odoo: :guilabel:`Worker`, :guilabel:`Employee`, and "
@@ -15134,7 +15515,7 @@ msgstr ""
 "vorkonfiguriert: :guilabel:`Arbeiter`, :guilabel:`Mitarbeiter` und "
 ":guilabel:`Keine`."
 
-#: ../../content/applications/hr/payroll.rst:888
+#: ../../content/applications/hr/payroll.rst:869
 msgid ""
 "Each :guilabel:`Salary Structure Type` has several rules configured. These "
 "affect how an offer is calculated using that particular :guilabel:`Salary "
@@ -15144,7 +15525,7 @@ msgstr ""
 "Diese wirken sich darauf aus, wie ein Angebot unter Verwendung dieses "
 "bestimmten :guilabel:`Gehaltsstrukturtyps` berechnet wird."
 
-#: ../../content/applications/hr/payroll.rst:891
+#: ../../content/applications/hr/payroll.rst:872
 msgid ""
 "To create a new rule, click the :guilabel:`New` button, and a blank "
 ":guilabel:`Contract Salary Resumé` form loads."
@@ -15153,11 +15534,11 @@ msgstr ""
 ":guilabel:`Neu`, und ein leeres Formular "
 ":guilabel:`Vertragsgehaltszusammenfassung` wird geladen."
 
-#: ../../content/applications/hr/payroll.rst:896
+#: ../../content/applications/hr/payroll.rst:877
 msgid ":guilabel:`Information`: type in a name for this field."
 msgstr ":guilabel:`Information`: Geben Sie einen Namen für dieses Feld ein."
 
-#: ../../content/applications/hr/payroll.rst:897
+#: ../../content/applications/hr/payroll.rst:878
 msgid ""
 ":guilabel:`Category`: select the category this value is housed under, using "
 "the drop-down menu. The default options are :guilabel:`Monthly Salary`, "
@@ -15169,11 +15550,11 @@ msgstr ""
 "sind :guilabel:`Monatsgehalt`, :guilabel:`Monatliche Vorteile`, "
 ":guilabel:`Jährliche Vorteile` und :guilabel:`Gesamt`."
 
-#: ../../content/applications/hr/payroll.rst:901
+#: ../../content/applications/hr/payroll.rst:882
 msgid "New categories can be made if needed."
 msgstr "Bei Bedarf können neue Kategorien erstellt werden."
 
-#: ../../content/applications/hr/payroll.rst:903
+#: ../../content/applications/hr/payroll.rst:884
 msgid ""
 "Click the :guilabel:`New` button, then enter the name for the new category "
 "in the :guilabel:`Name` field. Next, select the :guilabel:`Periodicity` from"
@@ -15188,11 +15569,11 @@ msgstr ""
 "Nummer für die Sequenz ein. Dies entspricht der Position, an der diese Regel"
 " in der Liste :guilabel:`Gehaltsstrukturtyp` erscheint."
 
-#: ../../content/applications/hr/payroll.rst:908
+#: ../../content/applications/hr/payroll.rst:889
 msgid "Finally, click :guilabel:`Save & Close`."
 msgstr "Klicken Sie schlussendlich auf :guilabel:`Speichern & schließen`."
 
-#: ../../content/applications/hr/payroll.rst:909
+#: ../../content/applications/hr/payroll.rst:890
 msgid ""
 ":guilabel:`Impacts Monthly Total`: tick the checkbox if this value is added "
 "in the monthly total calculation."
@@ -15201,7 +15582,7 @@ msgstr ""
 "Kontrollkästchen, wenn dieser Wert bei der Berechnung der monatlichen "
 "Gesamtsumme berücksichtigt werden soll."
 
-#: ../../content/applications/hr/payroll.rst:911
+#: ../../content/applications/hr/payroll.rst:892
 msgid ""
 ":guilabel:`Unit of Measure`: select what kind of value this rule is, either "
 ":guilabel:`Currency`, :guilabel:`Days`, or :guilabel:`Percent`."
@@ -15210,7 +15591,7 @@ msgstr ""
 "dieser Regel handelt, entweder :guilabel:`Währung`, :guilabel:`Tage`, oder "
 ":guilabel:`Prozent`."
 
-#: ../../content/applications/hr/payroll.rst:914
+#: ../../content/applications/hr/payroll.rst:895
 msgid ""
 ":guilabel:`Currency` is for a set monetary value, :guilabel:`Days` is for "
 "compensation in the form of time off, and :guilabel:`Percent` is for a "
@@ -15221,7 +15602,7 @@ msgstr ""
 "eine Vergütung in Form von Urlaub und :guilabel:`Prozent` für einen "
 "Geldwert, der auf einer anderen Metrik basiert, z. B. Provisionen."
 
-#: ../../content/applications/hr/payroll.rst:917
+#: ../../content/applications/hr/payroll.rst:898
 msgid ""
 ":guilabel:`Salary Structure Type`: select which :guilabel:`Salary Structure "
 "Type` this rule is nested under, from the drop-down menu."
@@ -15229,7 +15610,7 @@ msgstr ""
 ":guilabel:`Gehaltsstrukturtyp`: Wählen Sie aus dem Dropdown-Menü aus, unter "
 "welchem :guilabel:`Gehaltsstrukturtyp` diese Regel verschachtelt ist."
 
-#: ../../content/applications/hr/payroll.rst:919
+#: ../../content/applications/hr/payroll.rst:900
 msgid ""
 ":guilabel:`Value Type`: select how the value is computed, using the drop-"
 "down menu. The default options are :guilabel:`Fixed Value`, "
@@ -15241,7 +15622,7 @@ msgstr ""
 ":guilabel:`Vertragswert`, :guilabel:`Gehaltsabrechnungssumme`, "
 ":guilabel:`Summe der Vorteilswerte` und :guilabel:`Gesamt monatlich`."
 
-#: ../../content/applications/hr/payroll.rst:922
+#: ../../content/applications/hr/payroll.rst:903
 msgid ""
 ":guilabel:`Code`: select the code this rule applies to from the drop-down "
 "menu."
@@ -15256,11 +15637,11 @@ msgstr ""
 "Das ausgefüllte Formular für die Nettolohnregelung mit allen Angaben zum "
 "Nettolohn."
 
-#: ../../content/applications/hr/payroll.rst:929
+#: ../../content/applications/hr/payroll.rst:910
 msgid "Jobs"
 msgstr "Jobs"
 
-#: ../../content/applications/hr/payroll.rst:931
+#: ../../content/applications/hr/payroll.rst:912
 msgid ""
 "Since the *Payroll* application is responsible for paying employees for "
 "specific job positions, the complete list of job positions can be found in "
@@ -15271,12 +15652,12 @@ msgstr ""
 "Stellen sowohl in der Anwendung *Personalabrechnungsapp* als auch in der "
 "*Personalbeschaffungsapp*."
 
-#: ../../content/applications/hr/payroll.rst:937
+#: ../../content/applications/hr/payroll.rst:918
 #: ../../content/applications/hr/recruitment/new_job.rst:3
 msgid "Job positions"
 msgstr "Stellen"
 
-#: ../../content/applications/hr/payroll.rst:939
+#: ../../content/applications/hr/payroll.rst:920
 msgid ""
 "The job positions listed in the *Payroll* application are identical to the "
 "job positions listed in the *Recruitment* application. If a new job position"
@@ -15288,7 +15669,7 @@ msgstr ""
 "Stelle in der *Personalbeschaffungsapp* hinzugefügt wird, ist sie auch in "
 "der *Personalabrechnugsapp* sichtbar und umgekehrt."
 
-#: ../../content/applications/hr/payroll.rst:943
+#: ../../content/applications/hr/payroll.rst:924
 msgid ""
 "To view the job positions, navigate to :menuselection:`Payroll app --> "
 "Configuration --> Jobs: Job Positions`."
@@ -15297,7 +15678,7 @@ msgstr ""
 ":menuselection:`Personalabrechnung --> Konfiguration --> Jobs: Offene "
 "Stellen`."
 
-#: ../../content/applications/hr/payroll.rst:946
+#: ../../content/applications/hr/payroll.rst:927
 msgid ""
 "A list of all the job positions appear, along with the corresponding "
 "department, on the :guilabel:`Job Position` page."
@@ -15309,7 +15690,7 @@ msgstr ""
 msgid "A list of all the job positions and corresponding departments."
 msgstr "Eine Liste mit allen Stellen und den entsprechenden Abteilungen."
 
-#: ../../content/applications/hr/payroll.rst:953
+#: ../../content/applications/hr/payroll.rst:934
 msgid ""
 "To create a new job description, click the :guilabel:`New` button and a job "
 "form appears."
@@ -15317,7 +15698,7 @@ msgstr ""
 "Um eine neue Stellenbeschreibung zu erstellen, klicken Sie auf die "
 "Schaltfläche :guilabel:`Neu` und ein Stellenformular erscheint."
 
-#: ../../content/applications/hr/payroll.rst:955
+#: ../../content/applications/hr/payroll.rst:936
 msgid ""
 "Enter the information on the form for the new position. The information is "
 "identical as to the information entered when creating a new job position in "
@@ -15327,7 +15708,7 @@ msgstr ""
 "Informationen sind identisch mit den Informationen, die Sie beim Erstellen "
 "einer neuen Stelle in der *Personalbeschaffungsapp* eingeben."
 
-#: ../../content/applications/hr/payroll.rst:958
+#: ../../content/applications/hr/payroll.rst:939
 msgid ""
 "Refer to the :doc:`../hr/recruitment/new_job` documentation for more details"
 " on how to fill out this form."
@@ -15335,29 +15716,33 @@ msgstr ""
 "In der Dokumentation :doc:`../hr/recruitment/new_job` finden Sie weitere "
 "Einzelheiten zum Ausfüllen dieses Formulars."
 
-#: ../../content/applications/hr/payroll.rst:962
+#: ../../content/applications/hr/payroll.rst:943
 msgid ":doc:`payroll/contracts`"
 msgstr ":doc:`payroll/contracts`"
 
-#: ../../content/applications/hr/payroll.rst:963
-msgid ":doc:`payroll/payslips`"
-msgstr ":doc:`payroll/payslips`"
-
-#: ../../content/applications/hr/payroll.rst:964
+#: ../../content/applications/hr/payroll.rst:944
 msgid ":doc:`payroll/work_entries`"
 msgstr ":doc:`payroll/work_entries`"
 
-#: ../../content/applications/hr/payroll.rst:965
+#: ../../content/applications/hr/payroll.rst:945
+msgid ":doc:`payroll/salary_attachments`"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:946
+msgid ":doc:`payroll/payslips`"
+msgstr ":doc:`payroll/payslips`"
+
+#: ../../content/applications/hr/payroll.rst:947
 msgid ":doc:`payroll/reporting`"
 msgstr ":doc:`payroll/reporting`"
 
-#: ../../content/applications/hr/payroll.rst:966
+#: ../../content/applications/hr/payroll.rst:948
 msgid ":doc:`payroll/work_entry_analysis`"
-msgstr ""
+msgstr ":doc:`payroll/work_entry_analysis`"
 
-#: ../../content/applications/hr/payroll.rst:967
+#: ../../content/applications/hr/payroll.rst:949
 msgid ":doc:`payroll/salary_attachment`"
-msgstr ""
+msgstr ":doc:`payroll/salary_attachment`"
 
 #: ../../content/applications/hr/payroll/contracts.rst:5
 msgid ""
@@ -16288,6 +16673,7 @@ msgstr ""
 "Vertrag unterschreiben kann."
 
 #: ../../content/applications/hr/payroll/contracts.rst:330
+#: ../../content/applications/hr/payroll/salary_attachments.rst:3
 msgid "Salary attachments"
 msgstr "Gehaltspfändungen"
 
@@ -18106,12 +18492,18 @@ msgid ""
 "Spreadsheet` option places the newly-created spreadsheet in the "
 "**Dashboards** app."
 msgstr ""
+"Wenn die **Dokumente**-App **nicht** installiert ist, platziert die Option "
+":guilabel:`In Tabellenkalkulation einfügen` die neu erstellte "
+"Tabellenkalkulation in der App **Dashboards**."
 
 #: ../../content/applications/hr/payroll/reporting.rst:184
 msgid ""
 "If the **Documents** application *is* installed, the spreadsheet has the "
 "option to be stored in either the **Dashboards** app or **Documents** app."
 msgstr ""
+"Wenn die **Dokumente**-App installiert *ist*, kann die Tabellenkalkulation "
+"entweder in der **Dashboards**-App oder in der **Dokumente**-Apps "
+"gespeichert werden."
 
 #: ../../content/applications/hr/payroll/reporting.rst:192
 msgid ""
@@ -18284,12 +18676,16 @@ msgid ""
 "Each entry displays the total amount paid for each specific type of salary "
 "attachment, for each employee."
 msgstr ""
+"Jeder Eintrag zeigt den Gesamtbetrag, der für jede spezifische Art von "
+"Gehaltspfändung für jeden Mitarbeiter gezahlt wurde."
 
 #: ../../content/applications/hr/payroll/salary_attachment.rst-1
 msgid ""
 "The Attachment of Salary report that shows all salary garnishments in a "
 "condensed view."
 msgstr ""
+"Der Gehaltspfändungsbericht, der alle Lohn- und Gehaltspfändungen in einer "
+"komprimierten Ansicht anzeigt."
 
 #: ../../content/applications/hr/payroll/salary_attachment.rst:39
 msgid ""
@@ -18297,6 +18693,9 @@ msgid ""
 "spreadsheet <../../productivity/spreadsheet/insert>` using the corresponding"
 " buttons at the top."
 msgstr ""
+"Der Bericht kann als XLSX-Datei heruntergeladen oder :doc:`in eine "
+"Tabellenkalkulation <../../productivity/spreadsheet/insert>` eingefügt "
+"werden, unter Verwendung der entsprechenden Schaltflächen oben."
 
 #: ../../content/applications/hr/payroll/salary_attachment.rst:42
 msgid ""
@@ -18305,16 +18704,23 @@ msgid ""
 "salary`, and :guilabel:`Child support` are all selected and visible, by "
 "default, while the :guilabel:`Count` option is not."
 msgstr ""
+"Klicken Sie auf die Schaltfläche :guilabel:`Werte`, um die Optionen für die "
+"anzuzeigenden Daten anzuzeigen. :guilabel:`Lohnabtretung`, "
+":guilabel:`Gehaltspfändung` und :guilabel:`Kindergeld` sind standardmäßig "
+"ausgewählt und sichtbar, die Option :guilabel:`Anzahl` jedoch nicht."
 
 #: ../../content/applications/hr/payroll/salary_attachment.rst:46
 msgid ""
 "Click an option to either show or hide that particular metric. A :icon:`fa-"
 "check` :guilabel:`(checkmark)` icon indicates the data is visible."
 msgstr ""
+"Klicken Sie auf eine Option, um die jeweilige Kennzahl ein- oder "
+"auszublenden. Ein Symbol :icon:`fa-check` :guilabel:`(Kreuzchen)` zeigt an, "
+"dass die Daten sichtbar sind."
 
 #: ../../content/applications/hr/payroll/salary_attachment.rst:50
 msgid "Compare to previous year"
-msgstr ""
+msgstr "Mit Vorjahr vergleichen"
 
 #: ../../content/applications/hr/payroll/salary_attachment.rst:52
 msgid ""
@@ -18339,6 +18745,288 @@ msgstr ""
 
 #: ../../content/applications/hr/payroll/salary_attachment.rst-1
 msgid "The salary attachment report modified to compare to the previous year."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:5
+msgid ""
+"Salary attachments are portions of earnings taken directly out of a payslip "
+"for a specific purpose, whether voluntary or required."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:8
+msgid ""
+"When the deduction is voluntary, they are typically considered *deductions*."
+" When the deduction is court-ordered, or involuntary, it is sometimes "
+"referred to as a *wage garnishment*. In Odoo, these are all universally "
+"called, *salary attachments*."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:15
+msgid "Salary attachment types"
+msgstr "Arten der Gehaltspfändung"
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:17
+msgid ""
+"To view the currently configured salary attachment types, navigate to "
+":menuselection:`Payroll app --> Configuration --> Salary Attachment Types`. "
+"The default salary attachment types are: :guilabel:`Attachment of Salary`, "
+":guilabel:`Assignment of Salary`, and :guilabel:`Child Support`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:21
+msgid ""
+"Each salary attachment type displays the :guilabel:`Name` of the attachment "
+"type, the :guilabel:`Code` used when calculating payslips, a checkbox to "
+"indicate if there is :guilabel:`No End Date`, and whether it is "
+":guilabel:`Country` specific (or universal)."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst-1
+msgid "The default salary attachment types."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:29
+msgid "Create new salary attachment types"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:32
+msgid ""
+"Upon installation of the **Payroll** application, the pre-configured default"
+" salary attachment types are linked to a variety of rules that are linked to"
+" various salary structures, as well as the installed :ref:`localization "
+"package <fiscal_localizations/packages>`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:36
+msgid ""
+"It is **not** recommended to alter or modify **any** of the preconfigured "
+"salary attachment types, especially if they have been previously used on "
+"payslips in the database. Doing so may affect various salary rules, and can "
+"prevent the creation of payslips."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:40
+msgid ""
+"A new salary attachment type *can* be created, but this should only be done "
+"when absolutely necessary. All salary attachments can be associated with one"
+" of the three default salary attachment types."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:44
+msgid ""
+"To make a new type of salary attachment, click the :guilabel:`New` button, "
+"and a blank :guilabel:`Salary Attachment Types` form loads. Enter the "
+":guilabel:`Name` for the new salary attachment type in the corresponding "
+"field. Next, enter the :guilabel:`Code` used in the salary rules to compute "
+"payslips. Last, tick the :guilabel:`No End Date` checkbox if this salary "
+"attachment never expires."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:50
+msgid ""
+"If in a multi-company database, with locations in multiple countries, a "
+":guilabel:`Country` field also appears on the :guilabel:`Salary Attachment "
+"Types` form. Select the country the attachment applies to, or leave blank if"
+" it is universal."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:57
+msgid "Create a salary attachment"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:59
+msgid ""
+"All salary attachments must be configured separately for each employee, for "
+"each type of salary attachment. To view the currently configured salary "
+"attachments, navigate to :menuselection:`Payroll app --> Contracts --> "
+"Salary Attachments`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:63
+msgid ""
+"All salary attachments appear in a default list view, and displays the name "
+"of the :guilabel:`Employees`, :guilabel:`Description`, the salary attachment"
+" :guilabel:`Type`, the :guilabel:`Monthly Amount`, :guilabel:`Start Date`, "
+"and current :guilabel:`Status`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:67
+msgid ""
+"To create a new salary attachment, click the :guilabel:`New` button in the "
+"top-left corner, and a blank :guilabel:`Salary Attachment` form loads. Enter"
+" the following information on the form:"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:70
+msgid ""
+":guilabel:`Employees`: Using the drop-down menu, select the desired "
+"employees. Multiple employees can be listed in this field."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:72
+msgid ""
+":guilabel:`Description`: Enter a short description of the salary attachment."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:73
+msgid ""
+":guilabel:`Type`: Using the drop-down menu, select the specific :ref:`salary"
+" attachment type <payroll/salary-attachment/types>`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:75
+msgid ""
+":guilabel:`Start Date`: Using the calendar selector, select the date the "
+"salary attachment goes into effect."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:77
+msgid ""
+":guilabel:`Estimated End Date`: This field is **not** modifiable, and "
+"**only** appears after the :guilabel:`Monthly Amount` field is populated. "
+"This field is the estimated date when the salary attachment will be "
+"completed. Today's date populates the field by default. Then, when the "
+":guilabel:`Total Amount` field is populated, this date is updated."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:81
+msgid ""
+":guilabel:`Document`: If any documentation is needed, such as a court order,"
+" click the :guilabel:`Upload your file` button, and a file explorer window "
+"loads. Select the desired document to attach it to the record. Only **one** "
+"document can be attached to a salary attachment."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:84
+msgid ""
+":guilabel:`Monthly Amount`: Enter the amount taken out of each paycheck "
+"every month in this field."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:85
+msgid ""
+":guilabel:`Total Amount`: This field **only** appears if the :ref:`salary "
+"attachment type <payroll/salary-attachment/types>` has no end date (the "
+":guilabel:`No End Date` option is **not** ticked.)"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst-1
+msgid "The salary attachment form with all fields filled out."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:92
+msgid ""
+"Since the salary attachment form auto saves as the fields are populated, "
+"after making a salary attachment for an individual employee, there is no "
+"further action required."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:95
+msgid ""
+"If creating salary attachments for multiple employees on a single salary "
+"attachment form, after the form is filled out, click the :guilabel:`Create "
+"Individual Attachments` button. This creates separate salary attachments for"
+" each of the employees listed in the :guilabel:`Employees` field."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:99
+msgid ""
+"After the separate salary attachments have been created, the screen returns "
+"to the :guilabel:`Salary Attachment` dashboard, but with a "
+":guilabel:`Description` filter, populated with the description filled in on "
+"the salary attachment form. All the salary attachments have a status of "
+":guilabel:`Running`, since they are currently active. Clear the filter in "
+"the search box to view the default :guilabel:`Salary Attachment` dashboard "
+"in its entirety."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:106
+msgid "Manage salary attachments"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:108
+msgid ""
+"Salary attachments can have one of three statuses: *Running*, *Completed*, "
+"or *Canceled*. To view the current status of all salary attachments, "
+"navigate to :menuselection:`Payroll app --> Contracts --> Salary "
+"Attachments`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:112
+msgid ""
+"All salary attachments appear in the order they were configured. To view the"
+" salary attachments by a particular metric, such as the :guilabel:`Status`, "
+"or :guilabel:`Type`, click on the column title to sort by that specific "
+"column."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:117
+msgid "Completed salary attachments"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:119
+msgid ""
+"When a salary attachment is created, it has a status of :guilabel:`Running`."
+" Once the salary attachment is finished (the *Total Amount* entered on the "
+":ref:`salary attachment form <payroll/salary-attachment/create>` has been "
+"paid in full), the status automatically changes to *Completed*, and the "
+"employee no longer has the money taken out of future paychecks."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:124
+msgid ""
+"If a salary attachment has been fulfilled, but has not automatically changed"
+" to *Completed*, the record can be manually updated. To change the status, "
+"open the *Salary Attachment* dashboard by navigating to "
+":menuselection:`Payroll app --> Contracts --> Salary Attachments`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:128
+msgid ""
+"Click on the record to update, and the detailed :guilabel:`Salary "
+"Attachment` form loads. On the individual :guilabel:`Salary Attachment` "
+"record, click the :guilabel:`Mark as Completed` button in the upper-left "
+"corner, and the status changes to :guilabel:`Completed`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:133
+msgid ""
+"The following is an example of when a payroll manager may need to manually "
+"change a salary attachment from :guilabel:`Active` to :guilabel:`Cancelled`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:136
+msgid ""
+"Rose Smith has a salary attachment for a lawsuit settlement, where she is "
+"required to pay $3,000.00. A salary attachment is created that takes $250.00"
+" a month out of Rose's paycheck, to go towards this settlement payment."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:140
+msgid ""
+"After six months, Rose has paid $1,500.00 from her salary. She received a "
+"tax refund, and uses the money to pay off the remainder of the lawsuit "
+"settlement. After sending the relevant documentation to the payroll manager,"
+" showing the settlement has been paid in full, the payroll manager manually "
+"changes the status of her salary attachment to :guilabel:`Completed`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:146
+msgid "Cancel salary attachments"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:148
+msgid ""
+"Any salary attachment can be cancelled at any time. To cancel a salary "
+"attachment, click on the individual attachment record from the main "
+":guilabel:`Salary Attachment` dashboard to open the record. From the "
+":guilabel:`Salary Attachment` record, click the :guilabel:`Cancel` button to"
+" cancel the salary attachment, and stop having the designated money taken "
+"out of future paychecks."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salary_attachments.rst:154
+msgid ":doc:`salary_attachment`"
 msgstr ""
 
 #: ../../content/applications/hr/payroll/work_entries.rst:5
@@ -18498,6 +19186,8 @@ msgid ""
 ":guilabel:`Work Entry Type`: select the :ref:`work entry type <payroll/work-"
 "entries>` using the drop-down menu."
 msgstr ""
+":guilabel:`Arbeitseintragsart`: Wählen Sie die :ref:`Arbeitseintragsart "
+"<payroll/work-entries>` aus dem Dropdown-Menü aus."
 
 #: ../../content/applications/hr/payroll/work_entries.rst:64
 msgid ""
@@ -19231,6 +19921,10 @@ msgid ""
 "validated work entries for the current month. To view this report, navigate "
 "to :menuselection:`Payroll app --> Reporting --> Work Entry Analysis`."
 msgstr ""
+"Der Standardbericht *Arbeitseintragsanalyse* bietet einen Überblick über die"
+" validierten Arbeitseinträge für den aktuellen Monat. Um diesen Bericht "
+"anzuzeigen, navigieren Sie zu :menuselection:`Personalabrechnungsapp --> "
+"Berichtswesen --> Arbeitseintragsanalyse`."
 
 #: ../../content/applications/hr/payroll/work_entry_analysis.rst:9
 msgid ""
@@ -19239,6 +19933,11 @@ msgid ""
 "various types of :doc:`work_entries` populate the rows, while the "
 ":guilabel:`Total` values populate the only visible column."
 msgstr ""
+"Die Arbeitseinträge werden in einer Pivot-Tabelle angezeigt, mit den "
+"Standardfiltern :guilabel:`Aktueller Monat: (Monat)(Jahr)` und "
+":guilabel:`Validiert`. Die verschiedenen Arten von :doc:`work_entries` sind "
+"sind in den Spalten, während die :guilabel:`Gesamtwerte` in der einzigen "
+"sichtbaren Spalte erscheinen."
 
 #: ../../content/applications/hr/payroll/work_entry_analysis.rst:13
 msgid ""
@@ -19250,10 +19949,17 @@ msgid ""
 ":guilabel:`Department`. If in a multi-company database, a "
 ":guilabel:`Company` option also appears."
 msgstr ""
+"Um die angezeigten Informationen zu ändern, klicken Sie auf :icon:`fa-plus-"
+"square` :guilabel:`Gesamt` über der Hauptspalte, wodurch ein Drop-down-Menü "
+"der verfügbaren Kennzahlem erscheint. Klicken Sie auf eine der verfügbaren "
+"Gruppierungen und die Daten werden nach den gewählten Kennzahlen "
+"organisiert. Die Standardoptionen sind :guilabel:`Arbeitseintragsart`, "
+":guilabel:`Mitarbeiter`, und :guilabel:`Abteilung`. In einer Datenbank mit "
+"mehreren Unternehmen erscheint auch die Option :guilabel:`Unternehmen`."
 
 #: ../../content/applications/hr/payroll/work_entry_analysis.rst:20
 msgid "Work entry analysis comparison"
-msgstr ""
+msgstr "Arbeitseintragsvergleich"
 
 #: ../../content/applications/hr/payroll/work_entry_analysis.rst:22
 msgid ""
@@ -19261,6 +19967,10 @@ msgid ""
 "previous time period. To view this comparison, first navigate to "
 ":menuselection:`Payroll app --> Reporting --> Work Entry Analysis`."
 msgstr ""
+"Es ist möglich, die Arbeitseinträge eines Zeitraums mit denen eines früheren"
+" Zeitraums zu vergleichen. Um diesen Vergleich anzuzeigen, navigieren Sie "
+"zunächst zu: :menuselection:`Personalabrechnungsapp --> Berichterstattung "
+"--> Arbeitseintragsanalyse`."
 
 #: ../../content/applications/hr/payroll/work_entry_analysis.rst:26
 msgid ""
@@ -19830,12 +20540,14 @@ msgstr ":ref:`Zweites Bewerbungsgespräch <recruitment/second-interview>`"
 
 #: ../../content/applications/hr/recruitment.rst:193
 msgid ":doc:`Contract Proposal <recruitment/offer_job_positions>`"
-msgstr ""
+msgstr ":doc:`Vertragsvorschlag <recruitment/offer_job_positions>`"
 
 #: ../../content/applications/hr/recruitment.rst:194
 msgid ""
 ":ref:`Contract Signed <recruitment/offer_job_positions/contract-signed>`"
 msgstr ""
+":ref:`Vertrag unterschrieben <recruitment/offer_job_positions/contract-"
+"signed>`"
 
 #: ../../content/applications/hr/recruitment.rst:196
 msgid ""
@@ -20313,43 +21025,43 @@ msgstr ""
 
 #: ../../content/applications/hr/recruitment.rst:377
 msgid ":doc:`recruitment/new_job`"
-msgstr ""
+msgstr ":doc:`recruitment/new_job`"
 
 #: ../../content/applications/hr/recruitment.rst:378
 msgid ":doc:`recruitment/add-new-applicants`"
-msgstr ""
+msgstr ":doc:`recruitment/add-new-applicants`"
 
 #: ../../content/applications/hr/recruitment.rst:379
 msgid ":doc:`recruitment/schedule_interviews`"
-msgstr ""
+msgstr ":doc:`recruitment/schedule_interviews`"
 
 #: ../../content/applications/hr/recruitment.rst:380
 msgid ":doc:`recruitment/offer_job_positions`"
-msgstr ""
+msgstr ":doc:`recruitment/offer_job_positions`"
 
 #: ../../content/applications/hr/recruitment.rst:381
 msgid ":doc:`recruitment/refuse_applicant`"
-msgstr ""
+msgstr ":doc:`recruitment/refuse_applicant`"
 
 #: ../../content/applications/hr/recruitment.rst:382
 msgid ":doc:`recruitment/source_analysis`"
-msgstr ""
+msgstr ":doc:`recruitment/source_analysis`"
 
 #: ../../content/applications/hr/recruitment.rst:383
 msgid ":doc:`recruitment/recruitment_analysis`"
-msgstr ""
+msgstr ":doc:`recruitment/recruitment_analysis`"
 
 #: ../../content/applications/hr/recruitment.rst:384
 msgid ":doc:`recruitment/time_in_stage`"
-msgstr ""
+msgstr ":doc:`recruitment/time_in_stage`"
 
 #: ../../content/applications/hr/recruitment.rst:385
 msgid ":doc:`recruitment/team_performance`"
-msgstr ""
+msgstr ":doc:`recruitment/team_performance`"
 
 #: ../../content/applications/hr/recruitment/add-new-applicants.rst:3
 msgid "Add new applicants"
-msgstr ""
+msgstr "Neue Bewerber hinzufügen"
 
 #: ../../content/applications/hr/recruitment/add-new-applicants.rst:5
 msgid ""
@@ -20357,6 +21069,10 @@ msgid ""
 "application, or emailing a job position alias, an applicant card is "
 "automatically created in the *Recruitment* application."
 msgstr ""
+"Wenn sich ein Bewerber über das Online-Bewerbungsformular oder durch eine "
+"E-Mail an einen Alias für eine bestimmte Stelle eine Bewerbung einreicht, "
+"wird in der *Personalbeschaffungsapp* automatisch eine Bewerberkarte "
+"erstellt."
 
 #: ../../content/applications/hr/recruitment/add-new-applicants.rst:8
 msgid ""
@@ -20394,7 +21110,7 @@ msgstr ""
 
 #: ../../content/applications/hr/recruitment/add-new-applicants.rst:29
 msgid "Enter the following information on the card:"
-msgstr ""
+msgstr "Füllen Sie die folgenden Informationen auf der Karte aus:"
 
 #: ../../content/applications/hr/recruitment/add-new-applicants.rst:31
 msgid ""
@@ -22389,7 +23105,7 @@ msgstr ""
 
 #: ../../content/applications/hr/recruitment/schedule_interviews.rst:155
 msgid "Send meeting to attendees"
-msgstr ""
+msgstr "Meeting an Teilnehmer senden"
 
 #: ../../content/applications/hr/recruitment/schedule_interviews.rst:157
 msgid ""
@@ -22569,7 +23285,7 @@ msgstr ""
 
 #: ../../content/applications/hr/recruitment/schedule_interviews.rst:263
 msgid "Schedule interview"
-msgstr ""
+msgstr "Bewerbungsgespräch planen"
 
 #: ../../content/applications/hr/recruitment/schedule_interviews.rst:265
 msgid ""
@@ -24496,7 +25212,7 @@ msgstr ""
 
 #: ../../content/applications/hr/time_off.rst:39
 msgid "Time off types"
-msgstr ""
+msgstr "Abwesenheitsarten"
 
 #: ../../content/applications/hr/time_off.rst:41
 msgid ""
@@ -24504,6 +25220,9 @@ msgid ""
 ":menuselection:`Time Off app --> Configuration --> Time Off Types`. The time"
 " off types are presented in a list view."
 msgstr ""
+"Um die aktuell konfigurierten Abwesenheitsarten zu sehen, navigieren Sie zu "
+":menuselection:`Abwesenheit --> Konfiguration --> Abwesenheitsarten`. Die "
+"Abwesenheitsarten werden in der Listenansicht angezeigt."
 
 #: ../../content/applications/hr/time_off.rst:44
 msgid ""
@@ -24512,10 +25231,14 @@ msgid ""
 "and :guilabel:`Compensatory Days`. These can be modified to suit business "
 "needs, or used as-is."
 msgstr ""
+"Die **Abwesenheitenapp** hat vier vorkonfigurierte Abwesenheitsarten: "
+":guilabel:`Bezahlte Abwesenheit`, :guilabel:`Krankheit`, "
+":guilabel:`Unbezahlt`, und :guilabel:`Ausgleichstage`. Sie können "
+"entsprechend der Unternehmensanforderungen angepasst werden."
 
 #: ../../content/applications/hr/time_off.rst:49
 msgid "Create time off type"
-msgstr ""
+msgstr "Anwesenheitsart erstellen"
 
 #: ../../content/applications/hr/time_off.rst:51
 msgid ""
@@ -24523,6 +25246,10 @@ msgid ""
 "Configuration --> Time Off Types`. From here, click the :guilabel:`New` "
 "button to reveal a blank time off type form."
 msgstr ""
+"Um eine neue Abwesenheitsart zu erstellen, gehen Sie zu "
+":menuselection:`Abwesenheiten --> Konfiguration --> Abwesenheitsarten` und "
+"klicken Sie auf :guilabel:`Neu`, um ein leeres Formular für "
+"Abwesenheitsarten zu öffnen."
 
 #: ../../content/applications/hr/time_off.rst:54
 msgid ""
@@ -24530,6 +25257,9 @@ msgid ""
 "top of the form, such as `Sick Time` or `Vacation`. Then, enter the "
 "following information on the form."
 msgstr ""
+"Geben Sie den Namen für eine bestimmte Art von Abwesenheit in die leere "
+"Zeile oben auf dem Formular ein, wie z. B. `Krankheit` oder `Urlaub`. Geben "
+"Sie anschließend die folgenden Informationen im Formular ein."
 
 #: ../../content/applications/hr/time_off.rst:58
 msgid ""
@@ -24538,22 +25268,31 @@ msgid ""
 ":guilabel:`Kind of Time Off`. In addition, the :guilabel:`Time Off Requests`"
 " and :guilabel:`Allocation Requests` sections **must** be configured."
 msgstr ""
+"Die einzigen **erforderlichen** Felder im Formular für die Art der "
+"Abwesenheit sind der Name der :guilabel:`Abwesenheitsart`, die "
+":guilabel:`Einheit der Abwesenheit` und die :guilabel:`Abwesenheitsart`. "
+"Darüber hinaus müssen die Abschnitte :guilabel:`Abwesenheitsanträge` und "
+":guilabel:`Anträge auf Urlaubsanspruch` konfiguriert werden."
 
 #: ../../content/applications/hr/time_off.rst:64
 msgid "Time Off Requests section"
-msgstr ""
+msgstr "Abschnitt „Anträge auf Urlaubsanspruch“"
 
 #: ../../content/applications/hr/time_off.rst:66
 msgid ""
 ":guilabel:`Approval`: select what specific kind of approval is required for "
 "the time off type. The options are:"
 msgstr ""
+":guilabel:`Genehmigung`: Wählen Sie aus, welche Art von Genehmigung für die "
+"Abwesenheitsart erforderlich ist. Es gibt folgende Optionen:"
 
 #: ../../content/applications/hr/time_off.rst:69
 msgid ""
 ":guilabel:`No Validation`: No approvals are required when requesting this "
 "type of time off. The time off request is automatically approved."
 msgstr ""
+":guilabel:`Keine Validierung`: Für diese Art von Abwesenheit sind keine "
+"Genehmigungen erforderlich. Der Urlaubsantrag wird automatisch genehmigt."
 
 #: ../../content/applications/hr/time_off.rst:71
 msgid ""
@@ -24562,6 +25301,10 @@ msgid ""
 "Time Off Officer` field, is required to approve the time off request. This "
 "option is selected, by default."
 msgstr ""
+":guilabel:`Durch Abwesenheitsmanager`: Nur der in diesem Formular unter "
+":guilabel:`Benachrichtigter Abwesenheitsbeauftragter` eingestellte "
+":ref:`Abwesenheitsbeauftragter <time_off/time-off-officer>` muss den "
+"Urlaubsantrag genehmigen. Diese Option wird standardmäßig ausgewählt."
 
 #: ../../content/applications/hr/time_off.rst:74
 msgid ""
@@ -24570,6 +25313,10 @@ msgid ""
 ":ref:`employee's form <employees/work-info-tab>`, is required to approve the"
 " time off request."
 msgstr ""
+":guilabel:`Durch den Genehmiger des Mitarbeiters`: Nur der für den "
+"Mitarbeiter festgelegte Genehmiger für Abwesenheiten, der im Reiter "
+"*Arbeitsinformationen* im :ref:`Formular des Mitarbeiters <employees/work-"
+"info-tab>` festgelegt ist, muss den Urlaubsantrag genehmigen."
 
 #: ../../content/applications/hr/time_off.rst:77
 msgid ""
@@ -24578,10 +25325,14 @@ msgid ""
 ":ref:`Time Off Officer <time_off/time-off-officer>` are required to approve "
 "the time off request."
 msgstr ""
+":guilabel:`Durch Genehmiger des Mitarbeiters und Abwesenheitsmanager`: "
+"Sowohl der :ref:`spezifizierte Genehmiger für Abwesenheiten <employees/work-"
+"info-tab>` des Mitarbeiters als auch der :ref:`Abwesenheitsbeauftragte "
+"<time_off/time-off-officer>` müssen den Urlaubsantrag genehmigen."
 
 #: ../../content/applications/hr/time_off.rst:82
 msgid "Allocation Requests section"
-msgstr ""
+msgstr "Abschnitt „Anträge auf Urlaubsanspruch“"
 
 #: ../../content/applications/hr/time_off.rst:84
 msgid ""
@@ -24591,6 +25342,11 @@ msgid ""
 ":guilabel:`No Limit` is selected, the following options do not appear on the"
 " form."
 msgstr ""
+":guilabel:`Erfordert Anspruch`: Wenn die Abwesenheit den Mitarbeitern "
+"zugewiesen werden muss, wählen Sie :guilabel:`Ja` aus. Wenn die Abwesenheit "
+"beantragt werden kann, ohne dass sie zuvor zugewiesen wurde, wählen Sie "
+":guilabel:`Unbegrenzt` aus. Wenn :guilabel:`Unbegrenzt` ausgewählt wird, "
+"werden die folgenden Optionen nicht im Formular angezeigt."
 
 #: ../../content/applications/hr/time_off.rst:88
 msgid ""
@@ -24598,12 +25354,17 @@ msgid ""
 "Allowed` if the employee is able to request more time off than was "
 "allocated."
 msgstr ""
+":guilabel:`Mitarbeiteranträge`: Wählen Sie :guilabel:`Anträge auf "
+"zusätzliche Tage erlaubt`, wenn der Mitarbeiter weiteren Urlaub als den "
+"zugewiesenen beantragen kann."
 
 #: ../../content/applications/hr/time_off.rst:91
 msgid ""
 "If employees should **not** be able to make requests for more time off than "
 "what was allocated, select the :guilabel:`Not Allowed` option."
 msgstr ""
+"Wenn Mitarbeiter **nicht** mehr Urlaub beantragen können sollten, als ihnen "
+"zusteht, wählen Sie die Option :guilabel:`Nicht erlaubt` aus."
 
 #: ../../content/applications/hr/time_off.rst:95
 msgid ""
@@ -24613,18 +25374,27 @@ msgid ""
 " for two additional days, since the :guilabel:`Extra Days Requests Allowed` "
 "option is enabled."
 msgstr ""
+"Für diese Art von Abwesenheit stehen dem Mitarbeiter zehn Tage zur Verfügung"
+" und die Option :guilabel:`Anträge auf zusätzliche Tage erlaubt` ist "
+"aktiviert. Der Mitarbeiter möchte zwölf Tage Urlaub nehmen. Er kann einen "
+"Antrag auf zwei zusätzliche Tage stellen, da die Option :guilabel:`Anträge "
+"auf zusätzliche Tage erlaubt` aktiviert ist."
 
 #: ../../content/applications/hr/time_off.rst:101
 msgid ""
 "It is important to note that requesting additional time off does **not** "
 "guarantee that time off is granted."
 msgstr ""
+"Es ist wichtig zu beachten, dass die Beantragung zusätzlicher Abwesenheiten "
+"**keine** Garantie dafür ist, dass der Urlaub gewährt wird."
 
 #: ../../content/applications/hr/time_off.rst:104
 msgid ""
 ":guilabel:`Approval`: Select the type of approvals required for the "
 "allocation of this particular time off type."
 msgstr ""
+":guilabel:`Genehmigung`: Wählen Sie aus, welche Art von Genehmigung für "
+"diese Abwesenheitsart erforderlich ist."
 
 #: ../../content/applications/hr/time_off.rst:107
 msgid ""
@@ -24632,15 +25402,20 @@ msgid ""
 "Officer <time_off/time-off-officer>` set on this form must approve the "
 "allocation."
 msgstr ""
+":guilabel:`Vom Abwesenheitsbeauftragten genehmigt` gibt den "
+":ref:`Abwesenheitsbeauftragten <time_off/time-off-officer>` in diesem "
+"Formular an, der diesen Anspruch genehmigen muss."
 
 #: ../../content/applications/hr/time_off.rst:109
 msgid ""
 ":guilabel:`No validation needed` indicates that no approvals are required."
 msgstr ""
+":guilabel:`Keine Validierung erforderlich` gibt an, dass keine Genehmigung "
+"erforderlich ist."
 
 #: ../../content/applications/hr/time_off.rst:112
 msgid "Configuration section"
-msgstr ""
+msgstr "Abschnitt „Konfiguration“"
 
 #: ../../content/applications/hr/time_off.rst:116
 msgid ""
@@ -24648,12 +25423,17 @@ msgid ""
 " responsible for approving requests and allocations for this specific type "
 "of time off."
 msgstr ""
+":guilabel:`Benachrichtigter Abwesenheitsbeauftragter`: Wählen Sie die Person"
+" aus, die benachrichtigt wird und für die Genehmigung von Anträgen und "
+"Ansprüchen für diese Abwesenheitsart verantwortlich ist."
 
 #: ../../content/applications/hr/time_off.rst:118
 msgid ""
 ":guilabel:`Take Time Off in`: Select the format the time off is requested in"
 " from the drop-down menu."
 msgstr ""
+":guilabel:`Einheit der Abwesenheit`: Wählen Sie das Format, in der die "
+"Abwesenheit angefragt wurde aus dem Drop-down-Menü aus."
 
 #: ../../content/applications/hr/time_off.rst:121
 msgid "The options are:"
@@ -24664,22 +25444,30 @@ msgid ""
 ":guilabel:`Day`: if time off can only be requested in full day increments (8"
 " hours)."
 msgstr ""
+":guilabel:`Tag`: Wenn die Abwesenheit nur in ganzen Tagen beantragt werden "
+"kann (8 Stunden)."
 
 #: ../../content/applications/hr/time_off.rst:124
 msgid ""
 ":guilabel:`Half Day`: if time off can only be requested in half day "
 "increments (4 hours)."
 msgstr ""
+":guilabel:`Halber Tag`: Wenn die Abwesenheit in halben Tagen beantragt "
+"werden kann (4 Stunden)."
 
 #: ../../content/applications/hr/time_off.rst:125
 msgid ":guilabel:`Hours`: if the time off can be taken in hourly increments."
 msgstr ""
+":guilabel:`Stunden`: Wenn die Abwesenheit in Stunden genommen werden kann."
 
 #: ../../content/applications/hr/time_off.rst:129
 msgid ""
 ":guilabel:`Deduct Extra Hours`: Enable this option if the time off request "
 "should factor in any extra time accrued by the employee."
 msgstr ""
+":guilabel:`Überstunden abziehen`: Aktivieren Sie diese Option, wenn der "
+"Urlaubsantrag die vom Mitarbeiter angesammelte zusätzliche Zeit "
+"berücksichtigen soll."
 
 #: ../../content/applications/hr/time_off.rst:133
 msgid ""
@@ -24687,6 +25475,9 @@ msgid ""
 "of time off, the request would be for three hours, since the two extra "
 "worked hours are used first, and deducted from the request."
 msgstr ""
+"Wenn ein Mitarbeiter zwei Überstunden pro Woche leistet und fünf Stunden "
+"Urlaub beantragt, würde der Antrag auf drei Stunden lauten, da die zwei "
+"Überstunden zuerst genutzt und vom Antrag abgezogen werden."
 
 #: ../../content/applications/hr/time_off.rst:137
 msgid ""
@@ -24695,6 +25486,11 @@ msgid ""
 " situations where documentation is required, such as long-term medical "
 "leave."
 msgstr ""
+":guilabel:`Anhängen von unterstützenden Dokumenten ermöglichen`: Aktivieren "
+"Sie diese Option, um dem Mitarbeiter zu ermöglichen, Dokumente an den "
+"Urlaubsantrag anzuhängen. Dies ist in Situationen nützlich, in denen "
+"Unterlagen erforderlich sind, wie z. B. bei einer langfristigen "
+"krankheitsbedingten Abwesenheit."
 
 #: ../../content/applications/hr/time_off.rst:140
 msgid ""
@@ -24704,6 +25500,13 @@ msgid ""
 "time for any type of accrual the employee is working towards, whereas "
 ":guilabel:`Absence` does not count toward any type of accrual."
 msgstr ""
+":guilabel:`Abwesenheitsart`: Wählen Sie im Drop-down-Menü die Art der "
+"Abwesenheit aus, entweder :guilabel:`Gearbeitete Zeit` oder "
+":guilabel:`Abwesend`. :guilabel:`Gearbeitete Zeit` bedeutet, dass die "
+"genommene Abwesenheit auf die Arbeitszeit für jede Art von Rücklstellung "
+"angerechnet wird, auf die der Mitarbeiter hinarbeitet, während "
+":guilabel:`Abwesend` nicht auf irgendeine Art von Rückstellung angerechnet "
+"wird."
 
 #: ../../content/applications/hr/time_off.rst:144
 msgid ""
@@ -24713,10 +25516,15 @@ msgid ""
 "all companies in the database. This field **only** appears in a multi-"
 "company database."
 msgstr ""
+":guilabel:`Unternehmen`: Wenn in der Datenbank mehrere Unternehmen angelegt "
+"sind und diese Abwesenheitsart nur für ein Unternehmen gilt, wählen Sie das "
+"Unternehmen aus dem Drop-down-Menü aus. Wenn dieses Feld leer bleibt, gilt "
+"die Abwesenheitsart für alle Unternehmen in der Datenbank. Dieses Feld "
+"erscheint **nur** in einer Datenbank mit mehreren Unternehmen."
 
 #: ../../content/applications/hr/time_off.rst:150
 msgid "Negative Cap section"
-msgstr ""
+msgstr "Abschnitt „Negative Obergrenze“"
 
 #: ../../content/applications/hr/time_off.rst:152
 msgid ""
@@ -24725,18 +25533,28 @@ msgid ""
 " If enabled, an :guilabel:`Amount in Negative` field appears. In this field,"
 " enter the maximum amount of negative time allowed, in days."
 msgstr ""
+"Aktivieren Sie die Option :guilabel:`Negative Obergrenze zulassen`, wenn "
+"Mitarbeiter mehr Urlaub beantragen können, als sie derzeit haben, sodass ein"
+" negativer Saldo zulässig ist. Wenn diese Option aktiviert ist, wird das "
+"Feld :guilabel:`Maximale Überschreitung` angezeigt. Geben Sie in diesem Feld"
+" die maximal zulässige Anzahl negativer Tage ein."
 
 #: ../../content/applications/hr/time_off.rst:157
 msgid ""
 "Sara currently has three days of the time off type `Vacation`. She is "
 "planning a trip that requires five days of time off."
 msgstr ""
+"Sara hat derzeit drei Tage des Typs `Urlaub` als Abwesenheit. Sie plant eine"
+" Reise, für die sie fünf Abwesenheitstage benötigt."
 
 #: ../../content/applications/hr/time_off.rst:160
 msgid ""
 "The `Vacation` time off type has the :guilabel:`Allow Negative Cap` option "
 "enabled, and the :guilabel:`Amount in Negative` is set to five."
 msgstr ""
+"Für die Abwesenheitsart `Urlaub` ist die Option :guilabel:`Negative "
+"Obergrenze zulassen` aktiviert und die :guilabel:`Maximale Überschreitung` "
+"ist auf fünf eingestellt."
 
 #: ../../content/applications/hr/time_off.rst:163
 msgid ""
@@ -24744,16 +25562,21 @@ msgid ""
 "`Vacation` time off type. If approved, her `Vacation` time off balance will "
 "be negative two (-2) days."
 msgstr ""
+"Mit diesen Einstellungen kann Sara einen Antrag auf fünf Tage Abwesenheit "
+"vom Typ `Urlaub` stellen. Wenn dieser genehmigt wird, beträgt ihr "
+"Abwesenheitssaldo vom Typ `Urlaub` minus zwei (-2) Tage."
 
 #: ../../content/applications/hr/time_off.rst-1
 msgid ""
 "The top half of the time off type form, with all the information filled out for sick time\n"
 "off."
 msgstr ""
+"Der obere Teil des Abwesenheitsartformulars mit allen ausgefüllten "
+"Informationen für einen Krankheitstag."
 
 #: ../../content/applications/hr/time_off.rst:172
 msgid "Payroll section"
-msgstr ""
+msgstr "Abschnitt „Personalabrechnung“"
 
 #: ../../content/applications/hr/time_off.rst:174
 msgid ""
@@ -24761,10 +25584,13 @@ msgid ""
 "**Payroll** app, select the :guilabel:`Work Entry Type` from the drop-down "
 "list."
 msgstr ""
+"Wenn die Abwesenheitsart :doc:`../hr/payroll/work_entries` in der "
+"**Personalabrechnungsapp** erstellen soll, wählen Sie die "
+":guilabel:`Arbeitseintragsart` aud der Drop-down-Liste aus."
 
 #: ../../content/applications/hr/time_off.rst:178
 msgid "Timesheets section"
-msgstr ""
+msgstr "Abschnitt „Zeiterfassungen“"
 
 #: ../../content/applications/hr/time_off.rst:181
 msgid ""
@@ -24772,6 +25598,10 @@ msgid ""
 "mode. Refer to the :ref:`developer-mode` document for details on how to "
 "access the developer mode."
 msgstr ""
+"Der Abschnitt :guilabel:`Zeiterfassungen` erscheint nur, wenn der Benutzer "
+"im Entwicklermodus ist. Lesen Sie die Dokumentation zum :ref:`developer-"
+"mode` für weitere Informationen, wie man auf dem Entwicklermodus zugreifen "
+"kann."
 
 #: ../../content/applications/hr/time_off.rst:184
 msgid ""
@@ -24779,11 +25609,16 @@ msgid ""
 "entries in the **Timesheets** app for the time off. This section defines how"
 " they are entered."
 msgstr ""
+"Wenn ein Mitarbeiter Urlaub nimmt und auch Zeiterfassungen verwendet, "
+"erstellt Odoo in der **Zeiterfassungsapp** Einträge für die Abwesenheit. In "
+"diesem Abschnitt wird definiert, wie diese Einträge vorgenommen werden."
 
 #: ../../content/applications/hr/time_off.rst:187
 msgid ""
 ":guilabel:`Project`: Select the project the time off type entries appear in."
 msgstr ""
+":guilabel:`Projekt`: Wählen Sie das Projekt aus, in dem der "
+"Abwesenheitseintrag erscheint."
 
 #: ../../content/applications/hr/time_off.rst:188
 msgid ""
@@ -24791,32 +25626,41 @@ msgid ""
 "time off type. The default options are: :guilabel:`Time Off`, "
 ":guilabel:`Meeting`, or :guilabel:`Training`."
 msgstr ""
+":guilabel:`Aufgabe`: Wählen Sie die Aufgabe aus, die für diese "
+"Abwesenheitsart in der Zeiterfassung erscheint. Die Standardoptionen sind: "
+":guilabel:`Abwesenheit`, :guilabel:`Meeting` oder :guilabel:`Schulung`."
 
 #: ../../content/applications/hr/time_off.rst:192
 msgid "Display Option section"
-msgstr ""
+msgstr "Abschnitt „Anzeigeoption“"
 
 #: ../../content/applications/hr/time_off.rst:194
 msgid ""
 ":guilabel:`Color`: Select a color to be used in the **Time Off** app "
 "dashboard."
 msgstr ""
+":guilabel:`Farbe`: Wählen Sie eine Farbe aus, die im Dashboard der "
+"**Abwesenheitsapp** verwendet werden soll."
 
 #: ../../content/applications/hr/time_off.rst:195
 msgid ""
 ":guilabel:`Cover Image`: Select an icon to be used in the **Time Off** app "
 "dashboard."
 msgstr ""
+":guilabel:`Titelbild`: Wählen Sie ein Symbol aus, das im Dashboard der "
+"**Abwesenheitsapp** verwendet werden soll."
 
 #: ../../content/applications/hr/time_off.rst-1
 msgid ""
 "The lower half of the time off type form, with all the information filled out for sick time\n"
 "off."
 msgstr ""
+"Der untere Teil des Abwesenheitsartformulars mit allen ausgefüllten "
+"Informationen für einen Krankheitstag."
 
 #: ../../content/applications/hr/time_off.rst:205
 msgid "Accrual plans"
-msgstr ""
+msgstr "Rückstellungspläne"
 
 #: ../../content/applications/hr/time_off.rst:207
 msgid ""
@@ -24824,6 +25668,9 @@ msgid ""
 "specified amount of time an employee works (hour, day, week, etc), they earn"
 " or *accrue* a specified amount of time off."
 msgstr ""
+"Ein Teil des Urlaubs wird durch einen Rückstellungsplan erworben, d. h. für "
+"jede festgelegte Zeitspanne, die ein Mitarbeiter arbeitet (Stunde, Tag, "
+"Woche usw.), erwirbt oder *sammelt* er eine bestimmte Menge an Urlaub an."
 
 #: ../../content/applications/hr/time_off.rst:211
 msgid ""

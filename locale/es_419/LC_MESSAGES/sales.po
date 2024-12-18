@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-04 11:48+0000\n"
+"POT-Creation-Date: 2024-12-02 12:38+0000\n"
 "PO-Revision-Date: 2023-11-08 08:57+0000\n"
 "Last-Translator: Fernanda Alvarez, 2024\n"
 "Language-Team: Spanish (Latin America) (https://app.transifex.com/odoo/teams/41243/es_419/)\n"
@@ -83,7 +83,7 @@ msgstr ""
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:15
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/mercado_pago.rst:20
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/razorpay.rst:12
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:16
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:14
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/stripe.rst:19
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/vantiv.rst:17
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/viva_wallet.rst:13
@@ -8261,10 +8261,10 @@ msgid ""
 " the :guilabel:`Won` filter only shows leads that have been won in the "
 "attribution report."
 msgstr ""
-"Los :guilabel:`filtros`, ubicados en la columna izquierda de las opciones de"
-" búsqueda, pueden usarse para mantener solo los resultados que van con el "
-"filtro. Por ejemplo, seleccionar el filtro :guilabel:`Ganado` hará que se "
-"muestren leads que ya se ganaron en el reporte de atribución."
+"Los :guilabel:`filtros` que se encuentran en la columna izquierda de las "
+"opciones de búsqueda son útiles para mostrar solo los resultados que cumplen"
+" con el filtro. Por ejemplo, al seleccionar el filtro :guilabel:`Ganado` "
+"solo aparecerán los leads ganados en el reporte de atribución."
 
 #: ../../content/applications/sales/crm/track_leads/marketing_attribution.rst:86
 msgid ""
@@ -8300,8 +8300,8 @@ msgid ""
 "This can be verified by looking at the direction, and order, of the "
 "selections in the group tile that appears in the :guilabel:`Search...` bar."
 msgstr ""
-"Puede verificar esto con la dirección y el orden de las selecciones el grupo"
-" que aparece en la :guilabel:`barra de búsqueda`."
+"Puede verificar esto con la dirección y el orden de las selecciones en el "
+"cuadro de grupo que aparece en la :guilabel:`barra de búsqueda`."
 
 #: ../../content/applications/sales/crm/track_leads/marketing_attribution.rst:0
 msgid ""
@@ -10917,12 +10917,11 @@ msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/configuration/epos_printers.rst:60
 msgid ""
-"Thermal printers using ESC/POS or StarPRNT protocol are compatible **with** "
-"an :doc:`IoT Box </applications/general/iot/devices/printer>`."
-msgstr ""
-"Las impresoras térmicas que utilizan el protocolo ESC/POS o StarPRNT son "
-"compatibles **con** una :doc:`caja IoT "
+"Thermal printers using ESC/POS are compatible **with** an :doc:`IoT Box "
 "</applications/general/iot/devices/printer>`."
+msgstr ""
+"Las impresoras térmicas que utilizan el protocolo ESC/POS son compatibles "
+"**con** una :doc:`caja IoT </applications/general/iot/devices/printer>`."
 
 #: ../../content/applications/sales/point_of_sale/configuration/epos_printers.rst:62
 msgid ""
@@ -12113,7 +12112,7 @@ msgstr ""
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/adyen.rst:73
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:41
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/razorpay.rst:30
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:55
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:53
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/stripe.rst:22
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/vantiv.rst:20
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/viva_wallet.rst:81
@@ -12663,14 +12662,6 @@ msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:9
 msgid ""
-"Starting in July 2022, it will **not** be possible anymore to connect and "
-"use a Six payment terminal in PoS."
-msgstr ""
-"A partir de julio de 2022 ya **no** podrá conectar y usar terminales de pago"
-" Six en PdV."
-
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:11
-msgid ""
 "Even though Worldline has recently acquired SIX Payment Services and both "
 "companies use Yomani payment terminals, the firmware they run is different. "
 "Terminals received from Worldline are therefore not compatible with this "
@@ -12681,11 +12672,11 @@ msgstr ""
 "por esto que las terminales de Worldline no son compatibles con esta "
 "integración."
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:19
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:17
 msgid "Install the POS IoT Six module"
 msgstr "Instalar el módulo de PdV IoT Six"
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:21
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:19
 msgid ""
 "To activate the POS IoT Six module, go to :guilabel:`Apps`, remove the "
 ":guilabel:`Apps` filter, and search for **POS IoT Six**. This module adds "
@@ -12696,15 +12687,15 @@ msgstr ""
 "agrega el driver y la interfaz que se necesita para que su base de datos "
 "detecte terminales Six."
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:26
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:24
 msgid "This module replaces the **POS Six** module."
 msgstr "Este módulo reemplaza el módulo **PdV Six**."
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:29
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:27
 msgid "Connect an IoT box"
 msgstr "Conectar una caja IoT"
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:31
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:29
 msgid ""
 "Connecting a Six payment terminal to Odoo is requires :doc:`using a "
 "Raspberry Pi or virtual (for Windows OS only) IoT box "
@@ -12714,11 +12705,11 @@ msgstr ""
 "Raspberry Pi o una caja IoT virtual (solo para sistema operativo Windows) "
 "</applications/general/iot/config/connect>`."
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:35
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:33
 msgid "Configure the terminal ID"
 msgstr "Configurar el ID de la terminal"
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:37
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:35
 msgid ""
 "Navigate to your IoT Box homepage, where you can find the  :guilabel:`Six "
 "payment terminal` field once your database server is connected to the IoT "
@@ -12737,7 +12728,7 @@ msgstr ""
 msgid "Setting the Six terminal ID"
 msgstr "Configurando el ID de la terminal Six"
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:45
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:43
 msgid ""
 "Odoo automatically restarts the IoT box when the Six terminal ID is "
 "configured. If your Six terminal is online, it will be automatically "
@@ -12754,7 +12745,7 @@ msgstr ""
 msgid "Confirming the connection to the Six payment terminal"
 msgstr "Confirmación de la conexión de la terminal de pago Six"
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:57
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:55
 msgid ""
 "Enable the payment terminal :ref:`in the application settings "
 "<configuration/settings>` and :doc:`create the related payment method "
@@ -21550,16 +21541,16 @@ msgid ""
 "An expense report summary with post journal entries button at the top of the"
 " form."
 msgstr ""
-"Un resumen de reporte de gastos con el botón de publicar asientos de diario "
-"en la parte superior del formulario."
+"Un resumen de reporte de gastos con el botón \"Registrar asientos "
+"contables\" en la parte superior del formulario."
 
 #: ../../content/applications/sales/sales/invoicing/expense.rst:151
 msgid ""
 "When the manager is satisfied with the :guilabel:`Expense Report Summary`, "
 "they'll click :guilabel:`Post Journal Entries`."
 msgstr ""
-"Cuando el gerente esté satisfecho con el :guilabel:`Resumen de reporte de "
-"gastos`, hará clic en  :guilabel:`Publicar asientos de diario`."
+"Cuando el gerente esté satisfecho con el :guilabel:`resumen de reporte de "
+"gastos` deberá hacer clic en :guilabel:`Registrar asientos contables`."
 
 #: ../../content/applications/sales/sales/invoicing/expense.rst:154
 msgid ""
@@ -21568,11 +21559,10 @@ msgid ""
 "is filled with the sales order that was initially configured to the expense "
 "in the :guilabel:`Customer to Reinvoice` field."
 msgstr ""
-"Al hacer clic en :guilabel:`Publicar asientos de diario`, el botón "
-"desaparecerá y la columna :guilabel:`Distribución analítica` en la pestaña "
-":guilabel:`Gasto` se llenará con la orden de venta que se configuró al "
-"inicio en el campo :guilabel:`Cliente al que se le volverá a facturar` del "
-"gasto"
+"El botón :guilabel:`Registrar asientos contables` desaparecerá al hacer clic"
+" en él y la columna :guilabel:`Distribución analítica` de la pestaña "
+":guilabel:`Gasto` incluirá la orden de venta que configuró al inicio en el "
+"campo :guilabel:`Cliente al que se le volverá a facturar`."
 
 #: ../../content/applications/sales/sales/invoicing/expense.rst:159
 msgid ""
@@ -23625,10 +23615,10 @@ msgid ""
 "the page, and click :guilabel:`Create Bill` to create a vendor bill that can"
 " be invoiced to the customer on the attached sales order."
 msgstr ""
-"A continuación, vuelva a la orden de compra con los enlaces de las migas de "
-"pan que se encuentran en la parte superior de la página. Haga clic en "
-":guilabel:`Crear factura` para crear una factura de vendedor que pueda "
-"facturar al cliente en la orden de venta adjunta."
+"Después regrese a la orden de compra con las migas de pan que se encuentran "
+"en la parte superior de la página. Haga clic en :guilabel:`Crear factura` "
+"para generar una factura de proveedor que le pueda facturar al cliente en la"
+" orden de venta relacionada."
 
 #: ../../content/applications/sales/sales/invoicing/time_materials.rst-1
 msgid ""

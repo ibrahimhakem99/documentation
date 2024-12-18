@@ -3989,6 +3989,9 @@ msgid ""
 "the :ref:`developer mode <developer-mode>`. Then, go to "
 ":menuselection:`Settings app --> Technical --> Aliases`."
 msgstr ""
+"수신 별칭을 Odoo 데이터베이스에 설정하여 수신 이메일을 수신하면 레코드가 생성됩니다. Odoo 데이터베이스에 설정된 별칭을 보려면 "
+"먼저 :ref:`개발자 모드 <developer-mode>` 를 활성화합니다. 그런 다음 :menuselection:`설정 앱 --> "
+"기술 --> 별칭` 으로 이동합니다."
 
 #: ../../content/applications/general/email_communication/email_servers_inbound.rst:328
 msgid ""
@@ -3998,6 +4001,9 @@ msgid ""
 "create a ticket, lead, opportunity, etc., eliminates false positives where "
 "email addresses with only the prefix alias, not the domain, are present."
 msgstr ""
+"시스템 매개변수인 `mail.catchall.domain.allowed`는 별칭 도메인으로 허용된 값으로, 쉼표로 구분되어 정확하게 "
+"주소가 지정된 이메일에 필터를 적용하여 별칭으로 걸러냅니다. 도메인을 설정하여 별칭에서 티켓, 영업제안, 영업기회 등을 생성할 경우, "
+"이메일 주소에 (도메인이 아닌) 별칭 접두사만 있을 때 메일이 잘못 처리될 가능성을 줄일 수 있습니다."
 
 #: ../../content/applications/general/email_communication/email_servers_inbound.rst:333
 msgid ""
@@ -4017,6 +4023,9 @@ msgid ""
 " `commercial` alias, with a different domain, and therefore, creates a "
 "ticket/lead/opportunity/etc."
 msgstr ""
+"Odoo에 수신된 이메일에서 `commercial` 접두사 별칭이 발신자, 수신자 또는 이메일 :abbr:`CC(수신 참조)` 이메일 "
+"주소에 있는 경우(예: commercial\\@example.com), 데이터베이스에서는 이메일 전체 주소가 `commercial` "
+"별칭인 다른 도메인 주소인 것으로 잘못 처리하여 티켓/영업제안/영업기회 등을 생성합니다."
 
 #: ../../content/applications/general/email_communication/email_servers_inbound.rst:343
 msgid ""
@@ -4050,6 +4059,9 @@ msgid ""
 "Odoo requires the whole email address to match for routing an incoming "
 "email."
 msgstr ""
+"새로운 별칭을 만들 때 :guilabel:`로컬 파트 기준으로 수신 감지` 를 활성화하는 옵션이 있습니다. 이 옵션을 활성화하면 "
+"Odoo에서 수신 이메일을 라우팅할 때 로컬 파트만 일치하면 됩니다. 이 기능을 해제할 경우 Odoo에서 수신 이메일을 라우팅하려면 전체"
+" 이메일 주소가 일치해야 합니다."
 
 #: ../../content/applications/general/email_communication/email_servers_outbound.rst:3
 msgid "Manage outbound messages"
@@ -12878,10 +12890,12 @@ msgid ""
 "it is one of the most commonly used. This is **not** an endorsement of the "
 "product."
 msgstr ""
+"이 문서의 나머지 부분에서는 가장 일반적으로 사용되는 Google 인증 방식을 예로 들어 설명합니다. 해당 제품을 추천하는 것이 "
+"**아닙니다**."
 
 #: ../../content/applications/general/users/2fa.rst:42
 msgid "Two-factor authentication setup"
-msgstr ""
+msgstr "2단계 인증 설정"
 
 #: ../../content/applications/general/users/2fa.rst:44
 msgid ""
@@ -12889,12 +12903,14 @@ msgid ""
 "avatar in the upper-right corner, and select :guilabel:`My Profile` from the"
 " resulting drop-down menu."
 msgstr ""
+"인증자를 선택한 후 Odoo에 로그인한 다음, 오른쪽 상단에 있는 아바타를 클릭하고 드롭다운 메뉴에서 :guilabel:`내 프로필` 을"
+" 선택합니다."
 
 #: ../../content/applications/general/users/2fa.rst:47
 msgid ""
 "Click the :guilabel:`Account Security` tab, then slide the :guilabel:`Two-"
 "Factor Authentication` toggle to *active*."
-msgstr ""
+msgstr ":guilabel:`계정 보안` 탭을 클릭한 다음 :guilabel:`2단계 인증` 토글을 *활성화* 로 밀어서 전환합니다."
 
 #: ../../content/applications/general/users/2fa.rst:53
 msgid ""
@@ -12910,7 +12926,7 @@ msgstr ""
 #: ../../content/applications/general/users/2fa.rst:61
 msgid ""
 "Using the desired authenticator application, scan the |QR| when prompted."
-msgstr ""
+msgstr "원하는 인증자 애플리케이션을 사용하여, 메시지가 표시되면 |QR| 을 스캔합니다."
 
 #: ../../content/applications/general/users/2fa.rst:64
 msgid ""
@@ -12924,13 +12940,13 @@ msgstr ""
 
 #: ../../content/applications/general/users/2fa.rst:74
 msgid "Afterwards, the authenticator should display a *verification code*."
-msgstr ""
+msgstr "그러면 인증자에 *확인 코드* 가 표시됩니다."
 
 #: ../../content/applications/general/users/2fa.rst:79
 msgid ""
 "Enter the code into the :guilabel:`Verification Code` field, then click "
 ":guilabel:`Activate`."
-msgstr ""
+msgstr ":guilabel:`인증 코드` 필드에 코드를 입력한 다음 :guilabel:`활성화` 를 클릭합니다."
 
 #: ../../content/applications/general/users/2fa.rst:85
 msgid "Logging in"
@@ -12938,7 +12954,7 @@ msgstr "로그인하기"
 
 #: ../../content/applications/general/users/2fa.rst:87
 msgid "To confirm |2fa| setup is complete, log out of Odoo."
-msgstr ""
+msgstr "|2fa| 설정이 완료되었는지 확인하려면 Odoo에서 로그아웃합니다."
 
 #: ../../content/applications/general/users/2fa.rst:89
 msgid ""
@@ -12952,13 +12968,15 @@ msgstr ""
 
 #: ../../content/applications/general/users/2fa.rst-1
 msgid "The login page with 2fa enabled."
-msgstr ""
+msgstr "2단계 인증이 활성화되어 있는 로그인 페이지"
 
 #: ../../content/applications/general/users/2fa.rst:98
 msgid ""
 "If a user loses access to their authenticator, an administrator **must** "
 "deactivate |2fa| on the account before the user can log in."
 msgstr ""
+"사용자가 인증자 액세스 권한을 분실한 경우에는, 사용자가 로그인하기 전에 **반드시** 관리자 계정에서 |2fa| 를 비활성화해야 "
+"합니다."
 
 #: ../../content/applications/general/users/2fa.rst:102
 msgid "Enforce two-factor authentication"
@@ -12977,11 +12995,11 @@ msgstr ""
 msgid ""
 "Click :guilabel:`Install` on the Kanban card for the :guilabel:`2FA by mail`"
 " module."
-msgstr ""
+msgstr "칸반 카드에서 :guilabel:`이메일을 사용한 2단계 인증` 모듈 :guilabel:`설치` 를 클릭합니다."
 
 #: ../../content/applications/general/users/2fa.rst-1
 msgid "The 2FA by mail module in the Apps directory."
-msgstr ""
+msgstr "앱 디렉토리에 있는 이메일 2중 인증 모듈"
 
 #: ../../content/applications/general/users/2fa.rst:114
 msgid ""
@@ -13148,6 +13166,8 @@ msgid ""
 ":guilabel:`Create`. Then, from the blank group form, select an "
 ":guilabel:`Application`, and complete the group form (detailed below)."
 msgstr ""
+":guilabel:`그룹` 페이지에서 새 그룹을 만들려면 :guilabel:`만들기` 를 클릭합니다. 그런 다음 빈 그룹 양식에서 "
+":guilabel:`신청서` 를 선택하고 그룹 양식을 작성합니다(아래에 자세히 설명되어 있음)."
 
 #: ../../content/applications/general/users/access_rights.rst:76
 msgid ""
@@ -13198,6 +13218,8 @@ msgid ""
 "are automatically added to the groups listed on this tab. Click "
 ":guilabel:`Add a line` to add inherited groups."
 msgstr ""
+":guilabel:`상속됨` 탭: 상속됨이란 이 그룹에 추가된 사용자가 탭에 있는 그룹에 자동으로 추가된다는 의미입니다. 상속된 그룹을 "
+"추가하려면 :guilabel:`줄 추가` 를 클릭합니다."
 
 #: ../../content/applications/general/users/access_rights.rst:100
 msgid ""
@@ -13319,6 +13341,8 @@ msgid ""
 "`[('mrp_production_ids', 'in', "
 "user.partner_id.commercial_partner_id.production_ids.ids)]`"
 msgstr ""
+"`[('mrp_production_ids', 'in', "
+"user.partner_id.commercial_partner_id.production_ids.ids)]`"
 
 #: ../../content/applications/general/users/access_rights.rst:149
 msgid ""
@@ -13389,6 +13413,8 @@ msgid ""
 "upper-right corner, and clicking on the :guilabel:`OdooBot` username. Then, "
 "select the :guilabel:`Log out` option."
 msgstr ""
+"*슈퍼유저 모드* 를 종료하려면 오른쪽 상단으로 이동하여 :guilabel:`OdooBot` 사용자 이름을 클릭합니다. 그런 다음 "
+":guilabel:` 로그아웃` 을 선택합니다."
 
 #: ../../content/applications/general/users/access_rights.rst:185
 msgid ""
@@ -13396,6 +13422,8 @@ msgid ""
 "To do that, navigate to the login screen, and enter the appropriate "
 ":guilabel:`Email` and :guilabel:`Password`."
 msgstr ""
+"다른 방법으로도 *슈퍼유저 모드* 를 활성화할 수 있으며 슈퍼유저로 로그인하면 됩니다. 로그인 화면으로 이동하여 "
+":guilabel:`이메일` 과 :guilabel:`비밀번호` 를 알맞게 입력합니다."
 
 #: ../../content/applications/general/users/access_rights.rst:188
 msgid ""
@@ -13772,7 +13800,7 @@ msgstr "계정 정보 권한 액세스에 대한 Microsoft 조건에 동의합�
 
 #: ../../content/applications/general/users/facebook.rst:3
 msgid "Facebook sign-in authentication"
-msgstr ""
+msgstr "Facebook 로그인 인증"
 
 #: ../../content/applications/general/users/facebook.rst:5
 msgid ""
@@ -13794,7 +13822,7 @@ msgstr ""
 
 #: ../../content/applications/general/users/facebook.rst:15
 msgid "Meta for Developers setup"
-msgstr ""
+msgstr "개발자용 메타 설정"
 
 #: ../../content/applications/general/users/facebook.rst:17
 msgid ""
@@ -13837,7 +13865,7 @@ msgstr ""
 
 #: ../../content/applications/general/users/facebook.rst:37
 msgid "Customize app"
-msgstr ""
+msgstr "사용자 지정 앱"
 
 #: ../../content/applications/general/users/facebook.rst:39
 msgid ""
@@ -13876,7 +13904,7 @@ msgstr ""
 
 #: ../../content/applications/general/users/facebook.rst:60
 msgid "Configure settings"
-msgstr ""
+msgstr "환경설정 메뉴"
 
 #: ../../content/applications/general/users/facebook.rst:62
 msgid ""
@@ -13884,6 +13912,8 @@ msgid ""
 "This page contains additional settings that are required before the app can "
 "be submitted for approval."
 msgstr ""
+"페이지 맨 왼쪽 :menuselection:`앱 설정 --> 기본` 을 클릭합니다. 이 페이지에 있는 추가 설정 메뉴는 앱 승인 제출을 "
+"하기 전에 설정해야 합니다."
 
 #: ../../content/applications/general/users/facebook.rst:65
 msgid ""
@@ -14298,7 +14328,7 @@ msgstr "언어 추가"
 
 #: ../../content/applications/general/users/language.rst:15
 msgid "To download additional languages:"
-msgstr ""
+msgstr "추가 언어 다운로드 방법:"
 
 #: ../../content/applications/general/users/language.rst:17
 msgid ""
@@ -14331,6 +14361,8 @@ msgid ""
 "upper-right corner, go to :menuselection:`My profile`, and select a "
 ":guilabel:`Language` in the dropdown list."
 msgstr ""
+"사용 언어를 선택하려면 오른쪽 상단에 있는 프로필 아이콘을 클릭하여 :menuselection:`내 프로필` 로 이동한 다음 드롭다운 "
+"목록에서 :guilabel:`언어` 를 선택하면 됩니다."
 
 #: ../../content/applications/general/users/language.rst:36
 msgid "Change another user's language"

@@ -3061,23 +3061,23 @@ msgstr ""
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:3
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "키보드 단축키"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:5
 msgid ""
 "Users in Odoo can utilize several keyboard shortcuts to navigate through "
 "modules, execute actions, and manage data."
-msgstr ""
+msgstr "Odoo에서는 여러 가지 단축키를 활용하여 모듈을 탐색하거나 작업 실행 혹은 데이터를 관리할 수 있습니다."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:9
 msgid ""
 "Hold :kbd:`Ctrl` to view the keyboard shortcuts assigned to each element on "
 "the interface."
-msgstr ""
+msgstr ":kbd:`Ctrl` 을 누르면 인터페이스에 있는 각 기능에 지정된 단축키를 확인할 수 있습니다."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:0
 msgid "A selection of keyboard shortcuts in Odoo."
-msgstr ""
+msgstr "Odoo에 있는 단축키 모음"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:16
 msgid ""
@@ -3085,16 +3085,18 @@ msgid ""
 "or effective depending on browsers, extensions, or other individual "
 "settings."
 msgstr ""
+"일부 키보드 단축키의 경우에는 다른 Odoo 버전에서 사용할 수 없을 수 있으며, 브라우저나 확장 프로그램 또는 기타 개별적인 설정에 "
+"따라 적용이 되지 않을 수 있습니다."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:20
 msgid "Keyboard shortcuts by operating system"
-msgstr ""
+msgstr "운영 체제별 키보드 단축키"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:22
 msgid ""
 "Below is a list of some of the most commonly used keyboard shortcuts within "
 "Odoo, listed by operating system."
-msgstr ""
+msgstr "아래에 있는 목록에서 일반적으로 가장 많이 사용되는 Odoo키보드 단축키를 운영 체제별로 확인해 보세요."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:29
 msgid "Description"
@@ -3102,47 +3104,47 @@ msgstr "설명"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:30
 msgid "Windows / Linux"
-msgstr ""
+msgstr "Windows / Linux"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:31
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:32
 msgid "Previous breadcrumb"
-msgstr ""
+msgstr "이전 이동 경로"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:33
 msgid ":kbd:`Alt` + :kbd:`B`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`B`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:34
 msgid ":kbd:`Ctrl` + :kbd:`B`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`B`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:35
 msgid "Create new record"
-msgstr ""
+msgstr "새 레코드 만들기"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:36
 msgid ":kbd:`Alt` + :kbd:`C`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`C`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:37
 msgid ":kbd:`Ctrl` + :kbd:`C`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`C`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:38
 msgid "Odoo Home Page"
-msgstr ""
+msgstr "Odoo Home Page"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:39
 msgid ":kbd:`Alt` + :kbd:`H`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`H`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:40
 msgid ":kbd:`Ctrl` + :kbd:`H`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`H`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:41
 msgid "Discard changes"
@@ -3150,11 +3152,11 @@ msgstr "변경 내용 삭제"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:42
 msgid ":kbd:`Alt` + :kbd:`J`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`J`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:43
 msgid ":kbd:`Ctrl` + :kbd:`J`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`J`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:44
 msgid "Save changes"
@@ -3162,11 +3164,11 @@ msgstr "변경 사항 저장"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:45
 msgid ":kbd:`Alt` + :kbd:`S`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`S`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:46
 msgid ":kbd:`Ctrl` + :kbd:`S`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`S`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:47
 msgid "Next page"
@@ -3174,11 +3176,11 @@ msgstr "다음 페이지"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:48
 msgid ":kbd:`Alt` + :kbd:`N`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`N`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:49
 msgid ":kbd:`Ctrl` + :kbd:`N`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`N`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:50
 msgid "Previous page"
@@ -3186,11 +3188,11 @@ msgstr "이전 페이지"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:51
 msgid ":kbd:`Alt` + :kbd:`P`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`P`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:52
 msgid ":kbd:`Ctrl` + :kbd:`P`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`P`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:53
 msgid "Search"
@@ -3198,93 +3200,93 @@ msgstr "검색"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:54
 msgid ":kbd:`Alt` + :kbd:`Q`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`Q`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:55
 msgid ":kbd:`Ctrl` + :kbd:`Q`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`Q`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:56
 msgid "Select menus"
-msgstr ""
+msgstr "메뉴 선택"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:57
 msgid ":kbd:`Alt` + :kbd:`1-9`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`1-9`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:58
 msgid ":kbd:`Ctrl` + :kbd:`1-9`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`1-9`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:59
 msgid "Create a new To-Do"
-msgstr ""
+msgstr "새 할 일 만들기"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:60
 msgid ":kbd:`Alt` + :kbd:`Shift` + :kbd:`T`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`Shift` + :kbd:`T`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:61
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`T`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`T`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:62
 msgid "Search a Knowledge article"
-msgstr ""
+msgstr "지식 센터 기사 검색"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:63
 msgid ":kbd:`Alt` + :kbd:`F`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`F`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:64
 msgid ":kbd:`Ctrl` + :kbd:`F`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`F`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:65
 msgid "Share a Knowledge article"
-msgstr ""
+msgstr "지식 센터 기사 공유"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:66
 msgid ":kbd:`Alt` + :kbd:`Shift` + :kbd:`S`"
-msgstr ""
+msgstr ":kbd:`Alt` + :kbd:`Shift` + :kbd:`S`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:67
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`S`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`S`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:68
 msgid "Open command palette"
-msgstr ""
+msgstr "명령어 모음 열기"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:69
 msgid ":kbd:`Ctrl` + :kbd:`K`"
-msgstr ""
+msgstr ":kbd:`Ctrl` + :kbd:`K`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:70
 msgid ":kbd:`Command` + :kbd:`K`"
-msgstr ""
+msgstr ":kbd:`Command` + :kbd:`K`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:73
 msgid ""
 "After opening the command palette, search using the following keyboard "
 "shortcuts:"
-msgstr ""
+msgstr "명령어 팔레트를 연 후, 다음 단축키를 사용하여 검색합니다."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:75
 msgid ":kbd:`/`: search for menus, applications, and modules."
-msgstr ""
+msgstr ":kbd:`/`: 메뉴, 애플리케이션 및 모듈 검색"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:76
 msgid ":kbd:`@`: search for users."
-msgstr ""
+msgstr ":kbd:`@`: 사용자 검색"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:77
 msgid ":kbd:`#`: search for **Discuss** channels."
-msgstr ""
+msgstr ":kbd:`#`: **메일 및 채팅** 채널 검색"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:78
 msgid ":kbd:`?`: search for **Knowledge** articles."
-msgstr ""
+msgstr ":kbd:`?`: **지식 센터** 문서 검색"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:80
 msgid ""
@@ -3297,7 +3299,7 @@ msgstr ""
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:0
 msgid "The command palette in Odoo, with the menu search option selected."
-msgstr ""
+msgstr "Odoo의 명령어 팔레트에 메뉴 검색 옵션이 선택되어 있는 모습"
 
 #: ../../content/applications/essentials/reporting.rst:3
 msgid "Reporting"
