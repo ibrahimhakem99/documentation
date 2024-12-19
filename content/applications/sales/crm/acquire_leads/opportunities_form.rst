@@ -16,8 +16,8 @@ form can be customized, as needed, to suit the needs of a specific sales team.
 
 Navigate to :menuselection:`Website app --> Contact Us`, then click :guilabel:`Edit` in the
 top-right of the screen to open the web editor. Click on the form building block in the body of the
-webpage to open the form configuration settings on the right sidebar. The following options are
-available to customize the contact form from the :guilabel:`From` section of the right sidebar:
+webpage to open the form configuration settings on the right sidebar, but firstly make sure to change the Layout in the form configuration settings from custom to [1 or 2 , ...etc].
+The following options are available to customize the contact form from the :guilabel:`From` section of the right sidebar:
 
 .. image:: opportunities_form/form-customization.png
    :align: center
